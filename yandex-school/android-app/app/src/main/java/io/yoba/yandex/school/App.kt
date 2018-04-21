@@ -3,12 +3,14 @@ package io.yoba.yandex.school
 import android.app.Activity
 import android.app.Application
 import com.crashlytics.android.Crashlytics
+import com.crashlytics.android.answers.Answers
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasActivityInjector
 import io.fabric.sdk.android.Fabric
 import io.yoba.yandex.school.di.DaggerAppComponent
 import javax.inject.Inject
+
 
 class App : Application(), HasActivityInjector {
     @Inject
@@ -27,6 +29,7 @@ class App : Application(), HasActivityInjector {
 
     private fun setupFabric() {
         Fabric.with(this, Crashlytics())
+        Fabric.with(this, Answers())
     }
 
     private fun setupDagger() {
