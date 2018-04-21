@@ -2,9 +2,11 @@ package io.yoba.yandex.school
 
 import android.app.Activity
 import android.app.Application
+import com.crashlytics.android.Crashlytics
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasActivityInjector
+import io.fabric.sdk.android.Fabric
 import io.yoba.yandex.school.di.DaggerAppComponent
 import javax.inject.Inject
 
@@ -19,7 +21,12 @@ class App : Application(), HasActivityInjector {
     override fun onCreate() {
         super.onCreate()
 
+        setupFabric()
         setupDagger()
+    }
+
+    private fun setupFabric() {
+        Fabric.with(this, Crashlytics())
     }
 
     private fun setupDagger() {
