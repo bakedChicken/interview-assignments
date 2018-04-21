@@ -2,6 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="io.yoba.yandex.school">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".App"
         android:allowBackup="true"
@@ -18,5 +20,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="60cbfc322ab8002ef37327ebd0a4277026190683" />
     </application>
 </manifest>
