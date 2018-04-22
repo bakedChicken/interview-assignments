@@ -8,11 +8,11 @@ android {
     def environmentProperties = getProperties(rootProject.file('gradle-env.properties'))
 
     signingConfigs {
-        debugConfig {
-            keyAlias environmentProperties['DEBUG_CONFIG_KEY_ALIAS']
-            keyPassword environmentProperties['DEBUG_CONFIG_KEY_PASSWORD']
-            storeFile project.file(environmentProperties['DEBUG_CONFIG_FILEPATH'])
-            storePassword environmentProperties['DEBUG_CONFIG_STORE_PASSWORD']
+        releaseConfig {
+            keyAlias environmentProperties['RELEASE_CONFIG_KEY_ALIAS']
+            keyPassword environmentProperties['RELEASE_CONFIG_KEY_PASSWORD']
+            storeFile project.file(environmentProperties['RELEASE_CONFIG_FILEPATH'])
+            storePassword environmentProperties['RELEASE_CONFIG_STORE_PASSWORD']
         }
     }
     compileSdkVersion 27
@@ -28,13 +28,13 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.releaseConfig
             resValue "string", "app_name", "Йобозреватель"
             buildConfigField "String", "SERVER_URL", "\"${environmentProperties['RELEASE_SERVER_URL']}\""
         }
         debug {
             applicationIdSuffix ".debug"
             versionNameSuffix "-debug"
-            signingConfig signingConfigs.debugConfig
             resValue "string", "app_name", "Йобозреватель Debug"
             buildConfigField "String", "SERVER_URL", "\"${environmentProperties['DEBUG_SERVER_URL']}\""
         }
