@@ -5,6 +5,16 @@ apply plugin: 'kotlin-kapt'
 apply plugin: 'io.fabric'
 
 android {
+    def environmentProperties = getProperties(rootProject.file('gradle-env.properties'))
+
+    signingConfigs {
+        releaseConfig {
+            keyAlias environmentProperties['RELEASE_CONFIG_KEY_ALIAS']
+            keyPassword environmentProperties['RELEASE_CONFIG_KEY_PASSWORD']
+            storeFile project.file(environmentProperties['RELEASE_CONFIG_FILEPATH'])
+            storePassword environmentProperties['RELEASE_CONFIG_STORE_PASSWORD']
+        }
+    }
     compileSdkVersion 27
     defaultConfig {
         applicationId "io.yoba.yandex.school"
@@ -18,18 +28,21 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.releaseConfig
             resValue "string", "app_name", "Йобозреватель"
+            buildConfigField "String", "SERVER_URL", "\"${environmentProperties['RELEASE_SERVER_URL']}\""
         }
         debug {
-            resValue "string", "app_name", "Йобозреватель Debug"
             applicationIdSuffix ".debug"
             versionNameSuffix "-debug"
+            resValue "string", "app_name", "Йобозреватель Debug"
+            buildConfigField "String", "SERVER_URL", "\"${environmentProperties['DEBUG_SERVER_URL']}\""
         }
     }
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
     implementation 'com.android.support:appcompat-v7:27.1.1'
     testImplementation 'junit:junit:4.12'
@@ -40,7 +53,24 @@ dependencies {
     implementation 'com.google.dagger:dagger-android-support:2.15'
     kapt 'com.google.dagger:dagger-compiler:2.15'
     kapt 'com.google.dagger:dagger-android-processor:2.15'
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-moshi:2.4.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.10.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.12'
+    implementation 'io.reactivex.rxjava2:rxkotlin:2.2.0'
+    implementation 'com.jakewharton.rxbinding2:rxbinding:2.0.0'
     implementation('com.crashlytics.sdk.android:crashlytics:2.9.1@aar') {
         transitive = true
     }
+}
+
+def getProperties(File propertiesFile) {
+    if (!propertiesFile.exists() || !propertiesFile.canRead()) {
+        throw GradleException("Cannot find $name file at project root. Run `cp gradle-env-example.properties gradle-env.properties` to resolve this issue")
+    }
+
+    def properties = new Properties()
+    properties.load(new FileReader(propertiesFile))
+    return properties
 }
