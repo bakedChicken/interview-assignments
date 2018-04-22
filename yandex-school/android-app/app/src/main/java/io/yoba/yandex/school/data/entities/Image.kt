@@ -1,4 +1,4 @@
-package io.yoba.yandex.school.data
+package io.yoba.yandex.school.data.entities
 
 data class Image(
     var id: Long = 0,

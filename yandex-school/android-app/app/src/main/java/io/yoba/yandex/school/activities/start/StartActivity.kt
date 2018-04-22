@@ -1,12 +1,13 @@
-package io.yoba.yandex.school.activities
+package io.yoba.yandex.school.activities.start
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import android.util.Log
 import com.crashlytics.android.answers.Answers
 import com.crashlytics.android.answers.CustomEvent
 import dagger.android.AndroidInjection
+import io.yoba.yandex.school.activities.table.ImageTableActivity
 import io.yoba.yandex.school.interactors.NetworkInteractor
+import org.jetbrains.anko.startActivity
 import javax.inject.Inject
 
 class StartActivity : AppCompatActivity() {
@@ -21,9 +22,7 @@ class StartActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         answers.logCustom(CustomEvent("Application started"))
-
-        networkInteractor.getImages().subscribe { it ->
-            Log.e("StartActivity", "$it")
-        }
+        startActivity<ImageTableActivity>()
+        finish()
     }
 }

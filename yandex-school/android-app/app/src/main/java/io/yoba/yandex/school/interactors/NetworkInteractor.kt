@@ -3,8 +3,8 @@ package io.yoba.yandex.school.interactors
 import io.reactivex.Single
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
-import io.yoba.yandex.school.data.Image
 import io.yoba.yandex.school.data.ImageApiService
+import io.yoba.yandex.school.data.entities.Image
 import javax.inject.Inject
 import javax.inject.Singleton
 

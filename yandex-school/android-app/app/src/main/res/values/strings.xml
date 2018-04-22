@@ -1,1 +1,5 @@
-<resources></resources>
+<resources>
+    <string name="image_table_activity_server_is_unavailable_error">Нет подключения к сети</string>
+    <string name="image_table_activity_no_internet_connection_error">Сервер недоступен</string>
+    <string name="image_table_activity_unknown_error">Произошла неизвестная ошибка</string>
+</resources>
