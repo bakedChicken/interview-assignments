@@ -6,16 +6,12 @@ import com.crashlytics.android.answers.Answers
 import com.crashlytics.android.answers.CustomEvent
 import dagger.android.AndroidInjection
 import io.yoba.yandex.school.activities.table.ImageTableActivity
-import io.yoba.yandex.school.interactors.NetworkInteractor
 import org.jetbrains.anko.startActivity
 import javax.inject.Inject
 
 class StartActivity : AppCompatActivity() {
     @Inject
     lateinit var answers: Answers
-
-    @Inject
-    lateinit var networkInteractor: NetworkInteractor
 
     override fun onCreate(savedInstanceState: Bundle?) {
         AndroidInjection.inject(this)
