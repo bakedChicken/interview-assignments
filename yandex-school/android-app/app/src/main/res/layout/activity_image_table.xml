@@ -17,24 +17,54 @@
             type="io.yoba.yandex.school.activities.table.ImageTableActivityViewModel" />
     </data>
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
-        <android.support.v4.widget.SwipeRefreshLayout
-            android:id="@+id/imageTableActivitySwipeRefreshLayout"
+        <FrameLayout
+            style="@style/ImageTable.LoadingContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="@{viewModel.isCacheLoading ? View.VISIBLE : View.GONE}">
+
+            <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="true" />
+        </FrameLayout>
+
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:visibility="@{viewModel.isCacheLoading ? View.GONE : View.VISIBLE}">
 
-            <android.support.v7.widget.RecyclerView
+            <FrameLayout
+                style="@style/ImageTable.EmptyTableContainer"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:visibility="@{viewModel.isImageTableVisible ? View.VISIBLE : View.GONE }"
-                app:itemBinding="@{viewModel.itemBinding}"
-                app:itemDecorator="@{CustomItemDecorators.GRID_SPACE.name}"
-                app:items="@{viewModel.images}"
-                app:layoutManager="@{LayoutManagers.grid(2)}" />
-        </android.support.v4.widget.SwipeRefreshLayout>
-    </LinearLayout>
+                android:layout_height="wrap_content"
+                android:visibility="@{viewModel.isImageTableVisible ? View.GONE : View.VISIBLE}">
+
+                <TextView
+                    style="@style/ImageTable.EmptyTableText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/image_table_activity_table_is_empty_text" />
+            </FrameLayout>
+
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:id="@+id/imageTableActivitySwipeRefreshLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="@{viewModel.isImageTableVisible ? View.VISIBLE : View.GONE}"
+                    app:itemBinding="@{viewModel.itemBinding}"
+                    app:itemDecorator="@{CustomItemDecorators.GRID_SPACE.name}"
+                    app:items="@{viewModel.images}"
+                    app:layoutManager="@{LayoutManagers.grid(2)}" />
+            </android.support.v4.widget.SwipeRefreshLayout>
+        </RelativeLayout>
+    </RelativeLayout>
 </layout>

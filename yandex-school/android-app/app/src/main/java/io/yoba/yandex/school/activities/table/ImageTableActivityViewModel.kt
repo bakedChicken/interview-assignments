@@ -7,6 +7,7 @@ import io.reactivex.disposables.CompositeDisposable
 import io.yoba.yandex.school.BR
 import io.yoba.yandex.school.R
 import io.yoba.yandex.school.data.entities.Image
+import io.yoba.yandex.school.interactors.DatabaseInteractor
 import io.yoba.yandex.school.interactors.NetworkInteractor
 import io.yoba.yandex.school.managers.ResourceManager
 import io.yoba.yandex.school.utils.NetworkError
@@ -17,9 +18,12 @@ import me.tatarka.bindingcollectionadapter2.collections.DiffObservableList
 
 class ImageTableActivityViewModel(
     private val networkInteractor: NetworkInteractor,
+    private val databaseInteractor: DatabaseInteractor,
     private val resourceManager: ResourceManager
 ) : ViewModel() {
     val isImageTableVisible = ObservableBoolean(false)
+
+    val isCacheLoading = ObservableBoolean(true)
 
     val images = DiffObservableList(ImageObservableCallback())
 
@@ -54,7 +58,15 @@ class ImageTableActivityViewModel(
 
     private val refreshLiveData = SingleLiveEvent<String>()
 
-    private val cs = CompositeDisposable()
+    private val cacheSubscription = databaseInteractor.getAllImages()
+        .doOnSubscribe { isCacheLoading.set(true) }
+        .doAfterTerminate { isCacheLoading.set(false) }
+        .subscribe { cachedImages ->
+            isImageTableVisible.set(cachedImages.isNotEmpty())
+            images.update(cachedImages)
+        }
+
+    private val cs = CompositeDisposable(cacheSubscription)
 
     override fun onCleared() {
         cs.dispose()

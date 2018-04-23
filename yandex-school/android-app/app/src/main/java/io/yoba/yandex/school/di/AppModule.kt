@@ -1,13 +1,16 @@
 package io.yoba.yandex.school.di
 
 import android.app.Application
+import android.arch.persistence.room.Room
 import android.content.Context
 import com.crashlytics.android.answers.Answers
 import com.squareup.moshi.Moshi
 import dagger.Module
 import dagger.Provides
+import io.yoba.yandex.school.AppDatabase
 import io.yoba.yandex.school.BuildConfig
 import io.yoba.yandex.school.data.ImageApi
+import io.yoba.yandex.school.data.ImageDao
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import okhttp3.logging.HttpLoggingInterceptor.Level.BODY
@@ -62,4 +65,14 @@ class AppModule {
     @Provides
     @Singleton
     fun provideImageApi(retrofit: Retrofit) = retrofit.create(ImageApi::class.java)
+
+    @Provides
+    @Singleton
+    fun provideApplicationDatabase(context: Context): AppDatabase = Room
+        .databaseBuilder(context, AppDatabase::class.java, "images")
+        .build()
+
+    @Provides
+    @Singleton
+    fun provideImageDao(appDatabase: AppDatabase): ImageDao = appDatabase.imageDao()
 }
