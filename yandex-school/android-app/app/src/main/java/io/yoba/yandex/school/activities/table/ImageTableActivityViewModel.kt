@@ -2,10 +2,13 @@ package io.yoba.yandex.school.activities.table
 
 import android.arch.lifecycle.LiveData
 import android.arch.lifecycle.ViewModel
+import android.content.Context
 import android.databinding.ObservableBoolean
+import com.stfalcon.frescoimageviewer.ImageViewer
 import io.reactivex.disposables.CompositeDisposable
 import io.yoba.yandex.school.BR
 import io.yoba.yandex.school.R
+import io.yoba.yandex.school.activities.OnImageClickListener
 import io.yoba.yandex.school.data.entities.Image
 import io.yoba.yandex.school.interactors.DatabaseInteractor
 import io.yoba.yandex.school.interactors.NetworkInteractor
@@ -20,7 +23,7 @@ class ImageTableActivityViewModel(
     private val networkInteractor: NetworkInteractor,
     private val databaseInteractor: DatabaseInteractor,
     private val resourceManager: ResourceManager
-) : ViewModel() {
+) : ViewModel(), OnImageClickListener {
     val isImageTableVisible = ObservableBoolean(false)
 
     val isCacheLoading = ObservableBoolean(true)
@@ -30,12 +33,21 @@ class ImageTableActivityViewModel(
     val itemBinding = ItemBinding.of<Image> { binding, _, item ->
         binding.set(BR.image, R.layout.item_image)
         binding.bindExtra(BR.image, item)
+        binding.bindExtra(BR.onImageClickListener, this)
     }
 
     fun getRefreshLiveData(): LiveData<String> = refreshLiveData
 
     fun refreshData() {
         cs.add(networkInteractor.getImages().subscribe(this::handleImages, this::handleError))
+    }
+
+    override fun onClick(context: Context, image: Image) {
+        ImageViewer.Builder(context, images)
+            .setFormatter { it.url }
+            .setStartPosition(images.indexOf(image))
+            .build()
+            .show()
     }
 
     private fun handleImages(networkImages: List<Image>) {
