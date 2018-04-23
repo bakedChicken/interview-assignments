@@ -15,6 +15,6 @@ fun setImageUrl(imageView: ImageView, imageUrl: String?) {
 
     Glide.with(imageView.context)
         .load(imageUrl)
-        .apply(RequestOptions().diskCacheStrategy(DiskCacheStrategy.RESOURCE))
+        .apply(RequestOptions().diskCacheStrategy(DiskCacheStrategy.ALL).centerCrop())
         .into(imageView)
 }

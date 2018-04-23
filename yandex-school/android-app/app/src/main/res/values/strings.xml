@@ -1,1 +1,6 @@
-<resources></resources>
+<resources>
+    <string name="image_table_activity_server_is_unavailable_error">Нет подключения к сети</string>
+    <string name="image_table_activity_no_internet_connection_error">Сервер недоступен</string>
+    <string name="image_table_activity_unknown_error">Произошла неизвестная ошибка</string>
+    <string name="image_table_activity_table_is_empty_text">Иногда сервер не отдает ни одного изображения. Это не баг, это фича, иначе это сообщение никто бы не увидел. Потяните вниз, чтобы загрузить список изображений. Да поможет вам рандом.</string>
+</resources>
