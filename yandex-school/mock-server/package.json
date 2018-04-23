@@ -1,0 +1,40 @@
+{
+  "name": "yoba-browser-mock-server",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/dotenv": "^4.0.3",
+    "@types/koa": "^2.0.45",
+    "@types/koa-bodyparser": "^4.2.0",
+    "@types/koa-router": "^7.0.27",
+    "@types/koa-static": "^4.0.0",
+    "dotenv": "^5.0.1",
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.2",
+    "reflect-metadata": "^0.1.12",
+    "routing-controllers": "^0.7.7",
+    "typedi": "^0.7.2",
+    "typescript": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "nodemon": "^1.17.3",
+    "ts-node": "^5.0.1",
+    "jest": "^22.4.3"
+  },
+  "jest": {
+    "moduleFileExtensions": ["ts", "tsx", "js"],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
+    },
+    "testMatch": ["**/tests/**/*.+(ts|tsx|js)"]
+  }
+}
