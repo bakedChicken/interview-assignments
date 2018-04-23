@@ -15,6 +15,7 @@ import io.yoba.yandex.school.interactors.NetworkInteractor
 import io.yoba.yandex.school.managers.ResourceManager
 import io.yoba.yandex.school.utils.NetworkError
 import io.yoba.yandex.school.utils.SingleLiveEvent
+import io.yoba.yandex.school.utils.extensions.switchIfValueIsEmpty
 import io.yoba.yandex.school.utils.mapThrowableToNetworkError
 import me.tatarka.bindingcollectionadapter2.ItemBinding
 import me.tatarka.bindingcollectionadapter2.collections.DiffObservableList
@@ -36,6 +37,10 @@ class ImageTableActivityViewModel(
         binding.bindExtra(BR.onImageClickListener, this)
     }
 
+    fun restoreState(context: Context) {
+        showImage(context)
+    }
+
     fun getRefreshLiveData(): LiveData<String> = refreshLiveData
 
     fun refreshData() {
@@ -43,11 +48,8 @@ class ImageTableActivityViewModel(
     }
 
     override fun onClick(context: Context, image: Image) {
-        ImageViewer.Builder(context, images)
-            .setFormatter { it.url }
-            .setStartPosition(images.indexOf(image))
-            .build()
-            .show()
+        openedImage = image
+        showImage(context)
     }
 
     private fun handleImages(networkImages: List<Image>) {
@@ -68,9 +70,25 @@ class ImageTableActivityViewModel(
         }
     }
 
+    private var openedImage: Image? = null
+
+    private fun showImage(context: Context) {
+        if (openedImage != null) {
+            ImageViewer.Builder(context, images)
+                .setFormatter { it.url }
+                .setStartPosition(images.indexOf(openedImage))
+                .setOnDismissListener {
+                    openedImage = null
+                }
+                .build()
+                .show()
+        }
+    }
+
     private val refreshLiveData = SingleLiveEvent<String>()
 
     private val cacheSubscription = databaseInteractor.getAllImages()
+        .switchIfValueIsEmpty { networkInteractor.getImages() }
         .doOnSubscribe { isCacheLoading.set(true) }
         .doAfterTerminate { isCacheLoading.set(false) }
         .subscribe { cachedImages ->

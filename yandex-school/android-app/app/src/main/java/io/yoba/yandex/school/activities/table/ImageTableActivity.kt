@@ -40,6 +40,8 @@ class ImageTableActivity : AppCompatActivity() {
     }
 
     private fun setupViewModelSubscriptions() {
+        viewModel.restoreState(this)
+
         viewModel.getRefreshLiveData().observe(this, Observer {
             binding.imageTableActivitySwipeRefreshLayout.isRefreshing = false
 
