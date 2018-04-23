@@ -4,6 +4,7 @@ import android.app.Activity
 import android.app.Application
 import com.crashlytics.android.Crashlytics
 import com.crashlytics.android.answers.Answers
+import com.facebook.drawee.backends.pipeline.Fresco
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasActivityInjector
@@ -25,6 +26,7 @@ class App : Application(), HasActivityInjector {
 
         setupFabric()
         setupDagger()
+        setupFresco()
     }
 
     private fun setupFabric() {
@@ -37,5 +39,9 @@ class App : Application(), HasActivityInjector {
             .application(this)
             .build()
             .inject(this)
+    }
+
+    private fun setupFresco() {
+        Fresco.initialize(this)
     }
 }

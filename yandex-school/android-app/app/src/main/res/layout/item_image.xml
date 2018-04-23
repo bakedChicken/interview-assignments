@@ -7,10 +7,15 @@
         <variable
             name="image"
             type="io.yoba.yandex.school.data.entities.Image" />
+
+        <variable
+            name="onImageClickListener"
+            type="io.yoba.yandex.school.activities.OnImageClickListener" />
     </data>
 
     <io.yoba.yandex.school.activities.SquareImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:onClick="@{ v -> onImageClickListener.onClick(context, image) }"
         app:imageUrl="@{image.url}" />
 </layout>
