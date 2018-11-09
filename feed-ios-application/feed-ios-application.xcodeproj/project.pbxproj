@@ -61,6 +61,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DD4243EB2195AC3800A6AB79 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DDD4D9C82194F30E00CC2990 /* Assets.xcassets */,
+				DDD4D9CA2194F30E00CC2990 /* LaunchScreen.storyboard */,
+				DDD4D9CD2194F30E00CC2990 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		DDD4D9B52194F30D00CC2990 = {
 			isa = PBXGroup;
 			children = (
@@ -83,13 +93,11 @@
 			isa = PBXGroup;
 			children = (
 				DDD4D9C12194F30D00CC2990 /* AppDelegate.swift */,
-				DDD4D9C32194F30D00CC2990 /* FeedViewController.swift */,
-				DDD4D9C82194F30E00CC2990 /* Assets.xcassets */,
-				DDD4D9CA2194F30E00CC2990 /* LaunchScreen.storyboard */,
-				DDD4D9CD2194F30E00CC2990 /* Info.plist */,
+				DD4243E721950C9B00A6AB79 /* AuthViewController.swift */,
 				38ADD039BA7B881F08FD8422 /* FeedTableViewCell.swift */,
 				38ADD2E309B632B2E2B34865 /* FeedTableViewController.swift */,
-				DD4243E721950C9B00A6AB79 /* AuthViewController.swift */,
+				DDD4D9C32194F30D00CC2990 /* FeedViewController.swift */,
+				DD4243EB2195AC3800A6AB79 /* Resources */,
 			);
 			path = "feed-ios-application";
 			sourceTree = "<group>";
