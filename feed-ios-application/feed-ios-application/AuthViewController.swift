@@ -14,7 +14,7 @@ class AuthViewController: UIViewController {
         static let appId = "6746164"
     }
 
-    private let scope = [String]()
+    private let scope = ["wall", "friends"]
 
     private var error: String? {
         didSet {
@@ -58,8 +58,11 @@ class AuthViewController: UIViewController {
         }
     }
 
-    func loginSuccess(token _: String) {
-        let navigationController = UINavigationController(rootViewController: FeedViewController())
+    func loginSuccess(token: String) {
+        UserDefaults.standard.set(token, forKey: "access_token")
+        let feedViewController = FeedViewController()
+        feedViewController.service = VkService(token: token)
+        let navigationController = UINavigationController(rootViewController: feedViewController)
         present(navigationController, animated: true, completion: nil)
     }
 }

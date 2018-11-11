@@ -5,18 +5,6 @@
 
 import UIKit
 
-struct Post {
-    let avatar: UIImage
-    let name: String
-    let date: Date
-    let text: String
-    let attachments: [UIImage]
-    let likes: Int
-    let comments: Int
-    let shares: Int
-    let views: Int
-}
-
 class FeedTableViewController: UITableViewController {
     var posts: [Post]! {
         didSet {

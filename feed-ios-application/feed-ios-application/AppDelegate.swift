@@ -16,7 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // swiftlint:disable:next line_length
     func application(_: UIApplication, didFinishLaunchingWithOptions _: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = UINavigationController(rootViewController: FeedViewController())
+
+        if let token = UserDefaults.standard.string(forKey: "access_token") {
+            let service = VkService(token: token)
+            let feedViewController = FeedViewController()
+            feedViewController.service = service
+            window?.rootViewController = UINavigationController(rootViewController: feedViewController)
+        } else {
+            window?.rootViewController = AuthViewController()
+        }
+
         window?.makeKeyAndVisible()
         return true
     }

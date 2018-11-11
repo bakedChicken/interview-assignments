@@ -9,10 +9,34 @@
 import UIKit
 
 class FeedViewController: UIViewController {
+    var service: VkService!
+
+    let tableViewController = FeedTableViewController()
+
     override func viewDidLoad() {
         super.viewDidLoad()
         setupNavigationController()
         setupTableViewController()
+
+        service.fetchUserInformation { result in
+            switch result {
+            case let .success(userInfo):
+                print(userInfo)
+            case let .failure(error):
+                print(error)
+            }
+        }
+
+        service.fetchNewsfeed { result in
+            switch result {
+            case let .success(newsfeedResponse):
+                DispatchQueue.main.async {
+                    self.tableViewController.posts = newsfeedResponse
+                }
+            case let .failure(error):
+                print(error)
+            }
+        }
     }
 }
 
@@ -24,13 +48,7 @@ extension FeedViewController {
     }
 
     func setupTableViewController() {
-        let tableViewController = FeedTableViewController()
-        tableViewController.posts = [
-            // swiftlint:disable:next all
-            Post(avatar: UIImage(), name: "Андрей Рогозин", date: Date(), text: "2018-11-10 22:53:02.140761+0500 feed-ios-application[3146:1166977] *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: 'Application tried to present modally an active controller <feed_ios_application.AuthViewController: 0x10da08430>.djnskdnfjkdndnskcndskncksncdjs", attachments: [UIImage(named: "pizda")!], likes: 10, comments: 12, shares: 10, views: 26000),
-            // swiftlint:disable:next all
-            Post(avatar: UIImage(), name: "Андрей Рогозин", date: Date(), text: "2018-11-10 22:53:02.140761+0500 feed-ios-application[3146:1166977] *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: 'Application tried to present modally an active controller <feed_ios_application.AuthViewController: 0x10da08430>.djnskdnfjkdndnskcndskncksncdjs", attachments: [UIImage(named: "pizda")!, UIImage(named: "pizda")!], likes: 10, comments: 12, shares: 10, views: 26000),
-        ]
+        tableViewController.posts = []
         if #available(iOS 11.0, *) {
             tableViewController.view.frame = view.safeAreaLayoutGuide.layoutFrame
         } else {
@@ -39,8 +57,4 @@ extension FeedViewController {
         view.addSubview(tableViewController.view)
         addChild(tableViewController)
     }
-}
-
-extension FeedViewController: UISearchResultsUpdating {
-    public func updateSearchResults(for _: UISearchController) {}
 }

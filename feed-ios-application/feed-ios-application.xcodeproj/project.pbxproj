@@ -11,6 +11,9 @@
 		38ADD9C379151B9CACBCB7D1 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ADD039BA7B881F08FD8422 /* FeedTableViewCell.swift */; };
 		38ADDC054F6678B73B2FAFB3 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ADD2E309B632B2E2B34865 /* FeedTableViewController.swift */; };
 		DD31A2272197EB5D00A3B321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD31A2262197EB5D00A3B321 /* Assets.xcassets */; };
+		DD31A22921987EEB00A3B321 /* VkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD31A22821987EEB00A3B321 /* VkService.swift */; };
+		DD31A22B2198858300A3B321 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD31A22A2198858300A3B321 /* Post.swift */; };
+		DD31A22F219888DA00A3B321 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD31A22E219888DA00A3B321 /* UserInfo.swift */; };
 		DD4243E821950C9B00A6AB79 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4243E721950C9B00A6AB79 /* AuthViewController.swift */; };
 		DDD4D9C22194F30D00CC2990 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD4D9C12194F30D00CC2990 /* AppDelegate.swift */; };
 		DDD4D9C42194F30D00CC2990 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD4D9C32194F30D00CC2990 /* FeedViewController.swift */; };
@@ -24,6 +27,9 @@
 		75AEC1320E2BBBA2D298BFD1 /* Pods-feed-ios-application.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-feed-ios-application.debug.xcconfig"; path = "Pods/Target Support Files/Pods-feed-ios-application/Pods-feed-ios-application.debug.xcconfig"; sourceTree = "<group>"; };
 		D6766B724FD8CCF7A566E114 /* Pods_feed_ios_application.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_feed_ios_application.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD31A2262197EB5D00A3B321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD31A22821987EEB00A3B321 /* VkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkService.swift; sourceTree = "<group>"; };
+		DD31A22A2198858300A3B321 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		DD31A22E219888DA00A3B321 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		DD4243E721950C9B00A6AB79 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		DDD4D9BE2194F30D00CC2990 /* feed-ios-application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "feed-ios-application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDD4D9C12194F30D00CC2990 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +104,9 @@
 				38ADD2E309B632B2E2B34865 /* FeedTableViewController.swift */,
 				DDD4D9C32194F30D00CC2990 /* FeedViewController.swift */,
 				DD4243EB2195AC3800A6AB79 /* Resources */,
+				DD31A22821987EEB00A3B321 /* VkService.swift */,
+				DD31A22A2198858300A3B321 /* Post.swift */,
+				DD31A22E219888DA00A3B321 /* UserInfo.swift */,
 			);
 			path = "feed-ios-application";
 			sourceTree = "<group>";
@@ -261,6 +270,9 @@
 				DDD4D9C22194F30D00CC2990 /* AppDelegate.swift in Sources */,
 				DD4243E821950C9B00A6AB79 /* AuthViewController.swift in Sources */,
 				38ADD9C379151B9CACBCB7D1 /* FeedTableViewCell.swift in Sources */,
+				DD31A22F219888DA00A3B321 /* UserInfo.swift in Sources */,
+				DD31A22921987EEB00A3B321 /* VkService.swift in Sources */,
+				DD31A22B2198858300A3B321 /* Post.swift in Sources */,
 				38ADDC054F6678B73B2FAFB3 /* FeedTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
