@@ -34,6 +34,14 @@ class AuthViewController: UIViewController {
         super.viewDidLoad()
         setupView()
         setupSdk()
+
+        VKSdk.wakeUpSession(scope) { [unowned self] state, _ in
+            if state == .authorized {
+                if let accessToken = VKSdk.accessToken()?.accessToken {
+                    self.loginSuccess(token: accessToken)
+                }
+            }
+        }
     }
 
     @objc func authButtonClicked(sender _: Any?) {
@@ -51,8 +59,7 @@ class AuthViewController: UIViewController {
     }
 
     func loginSuccess(token _: String) {
-        let feedViewController = FeedViewController()
-        let navigationController = UINavigationController(rootViewController: feedViewController)
+        let navigationController = UINavigationController(rootViewController: FeedViewController())
         present(navigationController, animated: true, completion: nil)
     }
 }

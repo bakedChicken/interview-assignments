@@ -9,40 +9,35 @@
 import UIKit
 
 class FeedViewController: UIViewController {
-    struct ColorResources {
-        static let backgroundTopColor = UIColor(red: 235 / 255, green: 237 / 255, blue: 240 / 255, alpha: 1)
-        static let backgroundBottomColor = UIColor(red: 247 / 255, green: 249 / 255, blue: 250 / 255, alpha: 1)
-    }
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupView()
         setupNavigationController()
-        setupSearchController()
+        setupTableViewController()
     }
 }
 
 extension FeedViewController {
-    func setupView() {
-        let gradientLayer = CAGradientLayer()
-        gradientLayer.frame = view.bounds
-        gradientLayer.colors = [ColorResources.backgroundTopColor.cgColor, ColorResources.backgroundBottomColor.cgColor]
-        view.layer.insertSublayer(gradientLayer, at: 0)
-    }
-
     func setupNavigationController() {
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
-        // TODO: too hacky; think about it
-        navigationController?.navigationBar.setValue(true, forKey: "hidesShadow")
+        navigationController?.navigationBar.shadowImage = UIImage()
         navigationController?.navigationBar.isTranslucent = true
     }
 
-    func setupSearchController() {
-        let searchController = UISearchController(searchResultsController: nil)
-        searchController.searchResultsUpdater = self
-        navigationItem.searchController = searchController
-        definesPresentationContext = true
-        navigationItem.titleView = searchController.searchBar
+    func setupTableViewController() {
+        let tableViewController = FeedTableViewController()
+        tableViewController.posts = [
+            // swiftlint:disable:next all
+            Post(avatar: UIImage(), name: "Андрей Рогозин", date: Date(), text: "2018-11-10 22:53:02.140761+0500 feed-ios-application[3146:1166977] *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: 'Application tried to present modally an active controller <feed_ios_application.AuthViewController: 0x10da08430>.djnskdnfjkdndnskcndskncksncdjs", attachments: [UIImage(named: "pizda")!], likes: 10, comments: 12, shares: 10, views: 26000),
+            // swiftlint:disable:next all
+            Post(avatar: UIImage(), name: "Андрей Рогозин", date: Date(), text: "2018-11-10 22:53:02.140761+0500 feed-ios-application[3146:1166977] *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: 'Application tried to present modally an active controller <feed_ios_application.AuthViewController: 0x10da08430>.djnskdnfjkdndnskcndskncksncdjs", attachments: [UIImage(named: "pizda")!, UIImage(named: "pizda")!], likes: 10, comments: 12, shares: 10, views: 26000),
+        ]
+        if #available(iOS 11.0, *) {
+            tableViewController.view.frame = view.safeAreaLayoutGuide.layoutFrame
+        } else {
+            tableViewController.view.frame = view.bounds
+        }
+        view.addSubview(tableViewController.view)
+        addChild(tableViewController)
     }
 }
 

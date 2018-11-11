@@ -10,10 +10,10 @@
 		35A9F036F6786EC475F95906 /* Pods_feed_ios_application.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6766B724FD8CCF7A566E114 /* Pods_feed_ios_application.framework */; };
 		38ADD9C379151B9CACBCB7D1 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ADD039BA7B881F08FD8422 /* FeedTableViewCell.swift */; };
 		38ADDC054F6678B73B2FAFB3 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ADD2E309B632B2E2B34865 /* FeedTableViewController.swift */; };
+		DD31A2272197EB5D00A3B321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD31A2262197EB5D00A3B321 /* Assets.xcassets */; };
 		DD4243E821950C9B00A6AB79 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4243E721950C9B00A6AB79 /* AuthViewController.swift */; };
 		DDD4D9C22194F30D00CC2990 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD4D9C12194F30D00CC2990 /* AppDelegate.swift */; };
 		DDD4D9C42194F30D00CC2990 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD4D9C32194F30D00CC2990 /* FeedViewController.swift */; };
-		DDD4D9C92194F30E00CC2990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD4D9C82194F30E00CC2990 /* Assets.xcassets */; };
 		DDD4D9CC2194F30E00CC2990 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD4D9CA2194F30E00CC2990 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -23,11 +23,11 @@
 		4E5AF9B7A40B3849C43DD180 /* Pods-feed-ios-application.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-feed-ios-application.release.xcconfig"; path = "Pods/Target Support Files/Pods-feed-ios-application/Pods-feed-ios-application.release.xcconfig"; sourceTree = "<group>"; };
 		75AEC1320E2BBBA2D298BFD1 /* Pods-feed-ios-application.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-feed-ios-application.debug.xcconfig"; path = "Pods/Target Support Files/Pods-feed-ios-application/Pods-feed-ios-application.debug.xcconfig"; sourceTree = "<group>"; };
 		D6766B724FD8CCF7A566E114 /* Pods_feed_ios_application.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_feed_ios_application.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD31A2262197EB5D00A3B321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD4243E721950C9B00A6AB79 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		DDD4D9BE2194F30D00CC2990 /* feed-ios-application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "feed-ios-application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDD4D9C12194F30D00CC2990 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDD4D9C32194F30D00CC2990 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
-		DDD4D9C82194F30E00CC2990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDD4D9CB2194F30E00CC2990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDD4D9CD2194F30E00CC2990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,7 +64,7 @@
 		DD4243EB2195AC3800A6AB79 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DDD4D9C82194F30E00CC2990 /* Assets.xcassets */,
+				DD31A2262197EB5D00A3B321 /* Assets.xcassets */,
 				DDD4D9CA2194F30E00CC2990 /* LaunchScreen.storyboard */,
 				DDD4D9CD2194F30E00CC2990 /* Info.plist */,
 			);
@@ -164,8 +164,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD31A2272197EB5D00A3B321 /* Assets.xcassets in Resources */,
 				DDD4D9CC2194F30E00CC2990 /* LaunchScreen.storyboard in Resources */,
-				DDD4D9C92194F30E00CC2990 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +402,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZUM24YS96R;
-				INFOPLIST_FILE = "feed-ios-application/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/feed-ios-application/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -421,7 +422,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZUM24YS96R;
-				INFOPLIST_FILE = "feed-ios-application/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/feed-ios-application/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
