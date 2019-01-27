@@ -7,7 +7,7 @@ apply plugin: 'io.fabric'
 android {
     compileSdkVersion rootProject.compileSdkVersion
     defaultConfig {
-        applicationId "io.yoba.tinkoff.converter"
+        applicationId "io.yoba.tinkoff.converter2"
         minSdkVersion rootProject.minSdkVersion
         targetSdkVersion rootProject.targetSdkVersion
         versionCode rootProject.versionCodeBase
