@@ -1,8 +1,4 @@
 <resources>
     <string name="converter_activity_convert_from_hint">Конвертировать из</string>
-    <string name="convert_activity_convert_to_hint">Конвертировать в</string>
-    <string name="convert_activity_result_label">Результат</string>
-    <string name="convert_activity_convert_button_text">Конвертировать</string>
-    <string name="convert_activity_convert_from_helper_text">Например: USD</string>
-    <string name="convert_activity_convert_to_helper_text">Например: RUB</string>
+    <string name="converter_activity_convert_to_hint">Конвертировать в</string>
 </resources>

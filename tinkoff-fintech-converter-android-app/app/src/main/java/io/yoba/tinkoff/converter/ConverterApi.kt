@@ -5,9 +5,12 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface ConverterApi {
+    @GET("currencies")
+    fun getCurrencies(): Single<Map<String, Map<String, Currency>>>
+
     @GET("convert")
     fun convertCurrencies(
         @Query("q") currencyPair: String,
         @Query("compact") compact: String = "ultra"
-    ): Single<CurrencyPair>
+    ): Single<Map<String, String>>
 }
