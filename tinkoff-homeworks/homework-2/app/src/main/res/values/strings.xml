@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Homework2</string>
+    <string name="add_fragment_button_text">Добавить</string>
+    <string name="remove_fragment_button_text">Удалить</string>
+    <string name="main_activity_no_documents_message">Нет документов</string>
+    <string name="document_fragment_document_name_text">Документ №%d</string>
+</resources>
