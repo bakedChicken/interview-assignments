@@ -4,41 +4,31 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.FragmentManager
 
 class MainActivity : AppCompatActivity() {
-    companion object {
-        private const val DOCUMENT_COUNT_KEY = "document-count-key"
-    }
+    private val documentCount
+        get() = supportFragmentManager.backStackEntryCount
 
-    private var documentCount = 0
+    private val backStackListener = FragmentManager.OnBackStackChangedListener {
+        invalidateOptionsMenu()
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        supportFragmentManager.addOnBackStackChangedListener {
-            documentCount = supportFragmentManager.backStackEntryCount
-            invalidateOptionsMenu()
-        }
-
-        if (savedInstanceState != null) {
-            documentCount = savedInstanceState.getInt(DOCUMENT_COUNT_KEY)
-        } else {
+        if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
                 .replace(R.id.fragment_container, DocumentFragment.newInstance(documentCount))
                 .commit()
         }
-    }
 
-    override fun onSaveInstanceState(outState: Bundle) {
-        super.onSaveInstanceState(outState)
-        outState.putInt(DOCUMENT_COUNT_KEY, documentCount)
+        supportFragmentManager.addOnBackStackChangedListener(backStackListener)
     }
 
     override fun onPrepareOptionsMenu(menu: Menu?): Boolean {
-        if (documentCount == 0) {
-            menu?.getItem(1)?.isEnabled = false
-        }
+        menu?.findItem(R.id.remove_fragment_button)?.isEnabled = documentCount > 0
         return super.onPrepareOptionsMenu(menu)
     }
 
@@ -65,5 +55,10 @@ class MainActivity : AppCompatActivity() {
             }
             else -> super.onOptionsItemSelected(item)
         }
+    }
+
+    override fun onDestroy() {
+        supportFragmentManager.removeOnBackStackChangedListener(backStackListener)
+        super.onDestroy()
     }
 }
