@@ -9,12 +9,12 @@ import (
 	"go.uber.org/fx"
 )
 
-func NewGinRouter() *gin.Engine {
+func NewGinRouter(rulesController *RulesController) *gin.Engine {
 	r := gin.Default()
 
-	r.GET("/", func(c *gin.Context) {
-		c.JSON(http.StatusOK, gin.H{"message": "Ok"})
-	})
+	api := r.Group("/api/v1")
+	api.GET("/rules", rulesController.HandleHttpGetRequest)
+	api.DELETE("/rule/:ruleId", rulesController.HandleHttpDeleteRequest)
 
 	return r
 }
@@ -44,6 +44,7 @@ func main() {
 	app := fx.New(
 		fx.Provide(
 			NewGinRouter,
+			NewRulesController,
 		),
 		fx.Invoke(NewMux),
 	)
