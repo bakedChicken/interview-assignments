@@ -20,7 +20,7 @@
 ```bash
 docker build --target backend --tag feather-admin-panel-backend .
 
-docker build --target backend --tag feather-admin-panel-frontend .
+docker build --target frontend --tag feather-admin-panel-frontend .
 ```
 
 - Nginx in frontend image is used just as static file server. Another instance should be deployed somewhere for proper setup
