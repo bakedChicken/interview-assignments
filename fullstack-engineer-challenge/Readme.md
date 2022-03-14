@@ -29,6 +29,29 @@ docker build --target frontend --tag feather-admin-panel-frontend .
 
 - I haven't used a real database here. Again, I'm limited in time, but I have another test assignment done where I actually did use PostgreSQL with Docker: https://github.com/bakedchicken/n26-test-assignment
 
+- Quick start:
+
+```bash
+git clone git@github.com:bakedChicken/fullstack-engineer-challenge.git
+cd fullstack-engineer-challenge
+yarn
+```
+In frontend folder:
+```bash
+yarn start
+```
+
+In backend folder:
+```bash
+yarn dev
+```
+
+Credentials:
+```bash
+Login: admin@example.com
+Password: hello
+```
+
 ## Demo
 
 ![](demo.gif)
