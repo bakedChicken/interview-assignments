@@ -31,6 +31,26 @@ describe("Parser", () => {
       >(result);
     });
 
+    it("should successfully parse log message with dashes and spaces around", () => {
+      const logMessage = `2021-08-09T02:12:51.257Z - debug - {"transactionId":"9abc55b2-807b-4361-9dbe-aa88b1b2e978","details":"User information - is gathered","user":{"id":10,"name":"Alice"}}`;
+      const result: ParserResult<InputLogMessage> = {
+        result: "ok",
+        message: {
+          loggedAt: new Date("2021-08-09T02:12:51.257Z"),
+          logLevel: LogLevels.DEBUG,
+          message: {
+            transactionId: "9abc55b2-807b-4361-9dbe-aa88b1b2e978",
+            details: "User information - is gathered",
+            user: { id: 10, name: "Alice" },
+          },
+        },
+      };
+
+      expect(parser.parse(logMessage)).toMatchObject<
+        ParserResult<InputLogMessage>
+      >(result);
+    });
+
     it("should return error if log message has invalid format", () => {
       const logMessage = `2021-08-09T02:12:51.257Z - debug`;
       const result = parser.parse(logMessage);

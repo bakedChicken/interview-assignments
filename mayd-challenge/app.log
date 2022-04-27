@@ -12,3 +12,4 @@
 2021-08-09T02:12:51.266Z - error - {"transactionId":"a826fe0e-a1e3-4e2d-8d08-6e6c1beccfef","details":"Service finished with error","code":404,"err":"Cannot find user orders list"}
 2021-08-09T02:12:51.267Z - error - {"transactionId":"b6df2bc8-b1de-420d-b493-fd917d61b123"}
 2021-08-09T02:12:51.265Z - info - {"transactionId":"9abc55b2-807b-4361-9dbe-aa88b1b2e821","details":"Service is successfully finished"}
+2021-08-09T02:12:51.259Z - error - {"transactionId":"9abc55b2-807b-4361-9dbe-aa88b1b2e978","details":"The request is failed socket hang up","code": 500,"err":"Network error - socket hang up"}

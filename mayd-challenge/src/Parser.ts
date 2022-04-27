@@ -24,9 +24,22 @@ export class MalformedLogMessageError extends Error {
 }
 
 export class LogMessageFormatParser implements Parser<InputLogMessage> {
+  smartSplit(raw: string, separator: string, limit: number): string[] {
+    let result: string[] = [];
+    // 2021-08-09T02:12:51.259Z - error - {"transactionId":"9abc55b2-807b-4361-9dbe-aa88b1b2e978","details":"The request is failed socket hang up","code": 500,"err":"Network error - socket hang up"}
+    // indexes: [ 20, 50 ]
+    let lastIndexOf = raw.indexOf(separator);
+    for (let i = 0; i < limit; i++) {
+      result.push(lastIndexOf);
+    }
+    return result;
+  }
+
   parse(line: string): ParserResult<InputLogMessage> {
     try {
-      const splittedLine = line.split(" - ");
+      const splittedLine = this.smartSplit(line, " - ", 3);
+
+      console.log(splittedLine);
 
       if (splittedLine.length !== 3) {
         return {
