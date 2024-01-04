@@ -6,7 +6,7 @@ import {
   useSignOutHandler,
 } from "./useAuthorizationHandler";
 
-function useLocationToPageTitleMapper() {
+export function useLocationToPageTitleMapper() {
   const location = useLocation();
   const { id } = useParams();
 
