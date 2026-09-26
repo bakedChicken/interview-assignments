@@ -1,0 +1,4 @@
+<resources>
+    <string name="converter_activity_convert_from_hint">Конвертировать из</string>
+    <string name="converter_activity_convert_to_hint">Конвертировать в</string>
+</resources>
