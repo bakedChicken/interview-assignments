@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "build",
+    "module": "CommonJS"
+  },
+  "references": [
+    {
+      "path": "../shared"
+    }
+  ],
+  "exclude": ["build"]
+}
