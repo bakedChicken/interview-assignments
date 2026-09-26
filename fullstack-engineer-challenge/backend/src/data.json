@@ -1,0 +1,2836 @@
+{
+  "customers": [
+    {
+      "customerId": "7984a0c2-1bc5-4a53-b275-3224fb165260",
+      "firstName": "Garrison",
+      "lastName": "Jackson",
+      "dateOfBirth": "1968-05-08"
+    },
+    {
+      "customerId": "41d58116-510e-448b-b967-e32e06b3cdf7",
+      "firstName": "Essie",
+      "lastName": "Mayer",
+      "dateOfBirth": "1952-06-14"
+    },
+    {
+      "customerId": "bed3ec24-a15e-4f12-aa25-a29021ab72e8",
+      "firstName": "Susana",
+      "lastName": "Joyner",
+      "dateOfBirth": "1995-02-22"
+    },
+    {
+      "customerId": "c5c70e12-0dde-48e0-8d79-6f92fb5b5f04",
+      "firstName": "Elliott",
+      "lastName": "Foster",
+      "dateOfBirth": "1986-04-16"
+    },
+    {
+      "customerId": "95cf64ac-3fdf-486c-b26e-403fa9eee8ac",
+      "firstName": "Georgette",
+      "lastName": "Chavez",
+      "dateOfBirth": "1968-03-18"
+    },
+    {
+      "customerId": "a1f70e53-2259-4867-8d38-a81898c0bc92",
+      "firstName": "Bowman",
+      "lastName": "West",
+      "dateOfBirth": "1985-06-02"
+    },
+    {
+      "customerId": "f3539ac3-91b2-436e-ac3d-6902abd90706",
+      "firstName": "Elise",
+      "lastName": "Sawyer",
+      "dateOfBirth": "1999-12-14"
+    },
+    {
+      "customerId": "118f5e73-b4a6-4a03-9e4f-dc5b5e3ca7f0",
+      "firstName": "Barlow",
+      "lastName": "Barlow",
+      "dateOfBirth": "1975-03-01"
+    },
+    {
+      "customerId": "2715e53c-ab61-46ce-ab7b-871e12d3e016",
+      "firstName": "Gates",
+      "lastName": "Nelson",
+      "dateOfBirth": "1958-03-21"
+    },
+    {
+      "customerId": "159da495-f775-457a-b8e2-507d7c2c5bce",
+      "firstName": "Melissa",
+      "lastName": "Warren",
+      "dateOfBirth": "1982-05-19"
+    },
+    {
+      "customerId": "1107cb19-12e3-4778-bc11-a29c6d7aaae4",
+      "firstName": "Merle",
+      "lastName": "Nolan",
+      "dateOfBirth": "1961-10-24"
+    },
+    {
+      "customerId": "77549c5a-1465-4705-a729-cc37ddc1af67",
+      "firstName": "Watkins",
+      "lastName": "Rodgers",
+      "dateOfBirth": "1985-07-25"
+    },
+    {
+      "customerId": "414246ef-fbad-489a-99f6-3e76315ad6af",
+      "firstName": "Maricela",
+      "lastName": "Strong",
+      "dateOfBirth": "1974-07-17"
+    },
+    {
+      "customerId": "9fdf6e7d-e0c3-452e-bcfc-35738acd8cbd",
+      "firstName": "Kemp",
+      "lastName": "Espinoza",
+      "dateOfBirth": "1969-02-17"
+    },
+    {
+      "customerId": "64395a22-64b4-44e5-882c-367a8a209945",
+      "firstName": "Banks",
+      "lastName": "James",
+      "dateOfBirth": "1973-01-12"
+    },
+    {
+      "customerId": "c9c0aa50-aaa3-45d8-b078-ea84f4bc1434",
+      "firstName": "Odom",
+      "lastName": "Baker",
+      "dateOfBirth": "1992-02-24"
+    },
+    {
+      "customerId": "d8216b5c-16e6-45e3-9b35-276c356f5431",
+      "firstName": "Key",
+      "lastName": "Nunez",
+      "dateOfBirth": "1997-04-28"
+    },
+    {
+      "customerId": "3042e24e-6aef-489b-9029-a606dab20e64",
+      "firstName": "Bolton",
+      "lastName": "Mccormick",
+      "dateOfBirth": "1983-03-01"
+    },
+    {
+      "customerId": "f97a113f-4498-40ac-8598-84d28bd7ddfe",
+      "firstName": "Lynnette",
+      "lastName": "Gamble",
+      "dateOfBirth": "1958-05-20"
+    },
+    {
+      "customerId": "d34f6211-6dfc-48ea-9a72-b5939bcd44f1",
+      "firstName": "Suarez",
+      "lastName": "Dejesus",
+      "dateOfBirth": "1997-07-07"
+    },
+    {
+      "customerId": "9c9f2fa4-87c7-4711-ba66-b23dc9adec26",
+      "firstName": "Bauer",
+      "lastName": "Best",
+      "dateOfBirth": "1967-04-01"
+    },
+    {
+      "customerId": "4f0df34c-be99-4c6a-a19d-646000d8ca07",
+      "firstName": "Fitzgerald",
+      "lastName": "Moran",
+      "dateOfBirth": "1990-05-13"
+    },
+    {
+      "customerId": "9e299a5e-b356-43ce-8655-28c1af9bbef3",
+      "firstName": "Mclaughlin",
+      "lastName": "Moses",
+      "dateOfBirth": "1985-10-31"
+    },
+    {
+      "customerId": "22c6da57-7d89-46d4-abe8-b832c90994f1",
+      "firstName": "Sloan",
+      "lastName": "Norton",
+      "dateOfBirth": "1983-11-03"
+    },
+    {
+      "customerId": "34c2167b-c548-42bb-a733-e9bb73506110",
+      "firstName": "Woodward",
+      "lastName": "Juarez",
+      "dateOfBirth": "1997-01-01"
+    },
+    {
+      "customerId": "526ac3b7-779f-4f4c-872d-8c4ab28000a4",
+      "firstName": "Shauna",
+      "lastName": "Garrett",
+      "dateOfBirth": "1964-04-13"
+    },
+    {
+      "customerId": "5b198957-3dd3-4baf-9873-483487424e4f",
+      "firstName": "Benjamin",
+      "lastName": "Fitzgerald",
+      "dateOfBirth": "1990-11-28"
+    },
+    {
+      "customerId": "fcc0e0c3-32ed-4329-8057-5c71c514eab0",
+      "firstName": "Josephine",
+      "lastName": "Love",
+      "dateOfBirth": "1970-10-06"
+    },
+    {
+      "customerId": "0ebcffd8-a8c2-4dcd-b3b3-c96508254e8b",
+      "firstName": "Bridget",
+      "lastName": "Randall",
+      "dateOfBirth": "1968-12-02"
+    },
+    {
+      "customerId": "86af0178-6573-4b42-a4de-c268577f0413",
+      "firstName": "Lopez",
+      "lastName": "Crane",
+      "dateOfBirth": "1986-10-07"
+    },
+    {
+      "customerId": "28b3cacd-9433-409d-968c-756242605ef3",
+      "firstName": "Brianna",
+      "lastName": "Horn",
+      "dateOfBirth": "1960-08-28"
+    },
+    {
+      "customerId": "33383693-f690-4b58-99b0-4898d3ed2060",
+      "firstName": "Peters",
+      "lastName": "Anthony",
+      "dateOfBirth": "1991-09-14"
+    },
+    {
+      "customerId": "93a7a772-6401-4c02-b875-829073ea068f",
+      "firstName": "Deleon",
+      "lastName": "Holden",
+      "dateOfBirth": "1980-06-18"
+    },
+    {
+      "customerId": "625e7dc5-de5f-45ec-a418-fee3ed967fa5",
+      "firstName": "Edith",
+      "lastName": "Chan",
+      "dateOfBirth": "1990-11-17"
+    },
+    {
+      "customerId": "95727344-a635-41dd-a218-46453d9114fd",
+      "firstName": "Sue",
+      "lastName": "Woodward",
+      "dateOfBirth": "1970-02-18"
+    },
+    {
+      "customerId": "49dce495-c6d6-46b5-a8dc-34bdcbe23897",
+      "firstName": "Bradford",
+      "lastName": "Gaines",
+      "dateOfBirth": "1980-08-07"
+    },
+    {
+      "customerId": "d84889ca-8abf-4962-b1b5-aadd2b1b4505",
+      "firstName": "Frank",
+      "lastName": "Cervantes",
+      "dateOfBirth": "1991-12-25"
+    },
+    {
+      "customerId": "ad368230-5cf0-44a4-87f4-8a94a3b69df8",
+      "firstName": "Hunt",
+      "lastName": "Dotson",
+      "dateOfBirth": "1986-10-10"
+    },
+    {
+      "customerId": "3ee409d2-70dd-41cc-9a25-4158f49df309",
+      "firstName": "Luann",
+      "lastName": "Rush",
+      "dateOfBirth": "1960-02-05"
+    },
+    {
+      "customerId": "6a986891-0c7e-46bc-8d9a-5613dde51969",
+      "firstName": "Stout",
+      "lastName": "Copeland",
+      "dateOfBirth": "1970-02-01"
+    },
+    {
+      "customerId": "13ca690a-fd99-468c-8e71-205017cd3938",
+      "firstName": "Jana",
+      "lastName": "Ratliff",
+      "dateOfBirth": "1979-09-05"
+    },
+    {
+      "customerId": "c305bfb2-eb75-4eb2-bfae-c5f86fd73f21",
+      "firstName": "Ware",
+      "lastName": "Murray",
+      "dateOfBirth": "1997-10-26"
+    },
+    {
+      "customerId": "073d8e81-1e79-4024-8308-a922f9f238db",
+      "firstName": "Dodson",
+      "lastName": "Bean",
+      "dateOfBirth": "1968-01-20"
+    },
+    {
+      "customerId": "e8f909ab-b894-43ed-8536-489194ffadfd",
+      "firstName": "Raymond",
+      "lastName": "Callahan",
+      "dateOfBirth": "1952-08-25"
+    },
+    {
+      "customerId": "7138e169-aaab-4680-af5b-66028b187aba",
+      "firstName": "Leila",
+      "lastName": "Fisher",
+      "dateOfBirth": "1956-11-05"
+    },
+    {
+      "customerId": "fd30b498-2bad-4ef3-a3dc-486361f00e92",
+      "firstName": "Claudette",
+      "lastName": "Vinson",
+      "dateOfBirth": "1980-08-21"
+    },
+    {
+      "customerId": "c2827648-152c-439c-a0b4-849fd55bb44f",
+      "firstName": "Cain",
+      "lastName": "Farmer",
+      "dateOfBirth": "1952-02-14"
+    },
+    {
+      "customerId": "0c23de4a-206e-4540-9778-1f6f938d9109",
+      "firstName": "Adeline",
+      "lastName": "Frye",
+      "dateOfBirth": "1992-08-22"
+    },
+    {
+      "customerId": "bbd01804-1f70-4bf4-aa14-93b1034c13b8",
+      "firstName": "Glenn",
+      "lastName": "Marquez",
+      "dateOfBirth": "1986-09-09"
+    },
+    {
+      "customerId": "dcaf8307-578a-4df5-bcf8-ed76cef898ba",
+      "firstName": "Adams",
+      "lastName": "Tanner",
+      "dateOfBirth": "1990-12-29"
+    },
+    {
+      "customerId": "895f4879-067e-469a-861b-8d74f4962f36",
+      "firstName": "Rodriguez",
+      "lastName": "Avila",
+      "dateOfBirth": "1979-08-14"
+    },
+    {
+      "customerId": "e80bd767-01d5-48a3-9de5-0ebd0a1b9701",
+      "firstName": "Kathleen",
+      "lastName": "Mullen",
+      "dateOfBirth": "1952-08-18"
+    },
+    {
+      "customerId": "86787ab0-963c-4101-974b-80df06e73a60",
+      "firstName": "Lawrence",
+      "lastName": "Singleton",
+      "dateOfBirth": "1965-03-18"
+    },
+    {
+      "customerId": "3d011db3-3dbc-493a-b4fe-780411b8f3f1",
+      "firstName": "Vicky",
+      "lastName": "Contreras",
+      "dateOfBirth": "1996-02-06"
+    },
+    {
+      "customerId": "21c4bb98-a28f-4de9-a27b-52eacc598b33",
+      "firstName": "Pena",
+      "lastName": "Mays",
+      "dateOfBirth": "1982-12-30"
+    },
+    {
+      "customerId": "6a77fdc1-7ddd-49d3-b4d6-f4404babc2cc",
+      "firstName": "Lana",
+      "lastName": "Vang",
+      "dateOfBirth": "1956-02-21"
+    },
+    {
+      "customerId": "3ad2cda4-4c62-44a1-b5b2-407e15f9ea8e",
+      "firstName": "Lakisha",
+      "lastName": "Payne",
+      "dateOfBirth": "1955-11-29"
+    },
+    {
+      "customerId": "7f59105b-47b2-4b88-aea4-7281d298800b",
+      "firstName": "Mckee",
+      "lastName": "Little",
+      "dateOfBirth": "1964-08-01"
+    },
+    {
+      "customerId": "bdb9a4c5-158b-49f1-9026-d13d7de23455",
+      "firstName": "Janelle",
+      "lastName": "Levy",
+      "dateOfBirth": "1986-12-15"
+    },
+    {
+      "customerId": "55dd01ff-e252-4bc2-ae53-58dbb76ceda9",
+      "firstName": "Doris",
+      "lastName": "Freeman",
+      "dateOfBirth": "1977-11-22"
+    },
+    {
+      "customerId": "6a4faeab-4e3a-472a-8603-39de2deab43f",
+      "firstName": "Aimee",
+      "lastName": "Harrington",
+      "dateOfBirth": "1982-03-31"
+    },
+    {
+      "customerId": "807b8900-4252-4411-a254-0de73ce4c07e",
+      "firstName": "Gwen",
+      "lastName": "Fowler",
+      "dateOfBirth": "1963-01-31"
+    },
+    {
+      "customerId": "0b5c56c7-d997-4902-bb9e-6dd301c2b8ad",
+      "firstName": "Fitzpatrick",
+      "lastName": "Garrison",
+      "dateOfBirth": "1975-01-21"
+    },
+    {
+      "customerId": "5b26e80f-8f82-43c9-989f-18290c05dd65",
+      "firstName": "Ortiz",
+      "lastName": "Melton",
+      "dateOfBirth": "1960-05-04"
+    },
+    {
+      "customerId": "ff11dfa7-aaa1-41ab-948a-9d2ac9f18796",
+      "firstName": "Guthrie",
+      "lastName": "Newton",
+      "dateOfBirth": "1996-11-10"
+    },
+    {
+      "customerId": "ebf35ef5-4cd5-4e0b-891e-11020018d177",
+      "firstName": "Gina",
+      "lastName": "Matthews",
+      "dateOfBirth": "1990-07-18"
+    },
+    {
+      "customerId": "96516a10-6de8-499d-b9bc-cb2cb01f8189",
+      "firstName": "Carmela",
+      "lastName": "Barton",
+      "dateOfBirth": "1988-09-30"
+    },
+    {
+      "customerId": "24e24175-2f4f-4335-b5c7-da556cd9c70a",
+      "firstName": "Liliana",
+      "lastName": "Noble",
+      "dateOfBirth": "1958-01-23"
+    },
+    {
+      "customerId": "3c6bafc9-c097-487f-9a45-d1da48312a66",
+      "firstName": "Logan",
+      "lastName": "Burgess",
+      "dateOfBirth": "1987-06-13"
+    },
+    {
+      "customerId": "d470ad9a-6947-4191-a673-fcc5efdc0656",
+      "firstName": "Beverly",
+      "lastName": "May",
+      "dateOfBirth": "1999-03-17"
+    },
+    {
+      "customerId": "f499db1f-a933-45ba-aeb7-32f1a10d9f22",
+      "firstName": "Shannon",
+      "lastName": "Andrews",
+      "dateOfBirth": "1956-05-23"
+    },
+    {
+      "customerId": "1340e0bc-d914-46e6-b6c2-86f87e511466",
+      "firstName": "Spears",
+      "lastName": "Hurley",
+      "dateOfBirth": "1980-06-14"
+    },
+    {
+      "customerId": "6d6dd456-b101-4a33-8e3a-950561ead816",
+      "firstName": "Burks",
+      "lastName": "Fulton",
+      "dateOfBirth": "1951-04-13"
+    },
+    {
+      "customerId": "5b10d453-648a-4379-93da-a6311c7a5ccb",
+      "firstName": "Carney",
+      "lastName": "Lindsey",
+      "dateOfBirth": "1986-03-06"
+    },
+    {
+      "customerId": "0538dc6d-bd90-48ad-8ebf-6e347a6b1776",
+      "firstName": "Lacy",
+      "lastName": "Salazar",
+      "dateOfBirth": "1975-02-21"
+    },
+    {
+      "customerId": "b58721fc-cb5c-4da8-9c1f-d8b8a069ac71",
+      "firstName": "Huber",
+      "lastName": "Sanders",
+      "dateOfBirth": "1986-03-24"
+    },
+    {
+      "customerId": "1152fa47-83c4-4128-b197-e82ecdd8c052",
+      "firstName": "Mason",
+      "lastName": "Doyle",
+      "dateOfBirth": "1950-08-27"
+    },
+    {
+      "customerId": "b0b8fd07-2dc0-4ab7-b8e9-f7a0261c4431",
+      "firstName": "Kristi",
+      "lastName": "Franklin",
+      "dateOfBirth": "1973-06-13"
+    },
+    {
+      "customerId": "2f2816eb-80cf-477b-ad6a-6a4ce63fd9ca",
+      "firstName": "Trevino",
+      "lastName": "Hale",
+      "dateOfBirth": "1969-09-19"
+    },
+    {
+      "customerId": "d1c68258-9dcd-4d6e-adf4-894cdb6fc033",
+      "firstName": "Morrison",
+      "lastName": "Dawson",
+      "dateOfBirth": "1983-10-02"
+    },
+    {
+      "customerId": "76a98247-3146-47be-96f9-687418a48bd6",
+      "firstName": "Brown",
+      "lastName": "Young",
+      "dateOfBirth": "1950-06-02"
+    },
+    {
+      "customerId": "a9141af5-1751-4438-ac49-4717904fc19c",
+      "firstName": "Dominique",
+      "lastName": "Hill",
+      "dateOfBirth": "1953-11-11"
+    },
+    {
+      "customerId": "fd557977-5e90-4891-adde-13948f849824",
+      "firstName": "Tamika",
+      "lastName": "Pugh",
+      "dateOfBirth": "1981-02-19"
+    },
+    {
+      "customerId": "d8ec96c4-dc94-4bee-9aa9-4cd9d7fb6da5",
+      "firstName": "Kendra",
+      "lastName": "Fleming",
+      "dateOfBirth": "1960-04-18"
+    },
+    {
+      "customerId": "2c309fa8-06cf-41c8-ad12-34cca5a06234",
+      "firstName": "Mandy",
+      "lastName": "Sexton",
+      "dateOfBirth": "1992-05-26"
+    },
+    {
+      "customerId": "8cccf713-bf47-4a7a-95bd-d7414d8ee80c",
+      "firstName": "Everett",
+      "lastName": "Hart",
+      "dateOfBirth": "1992-05-16"
+    },
+    {
+      "customerId": "bc87f25c-161c-480b-a6fe-6009e0d851df",
+      "firstName": "Pamela",
+      "lastName": "Hopper",
+      "dateOfBirth": "1979-02-16"
+    },
+    {
+      "customerId": "c73dbbde-ab70-4e41-8336-f71b41683f1b",
+      "firstName": "Tasha",
+      "lastName": "Mcgee",
+      "dateOfBirth": "1996-07-23"
+    },
+    {
+      "customerId": "80bcdc86-c2d2-452c-814d-c869cb5f055d",
+      "firstName": "Shaffer",
+      "lastName": "Bates",
+      "dateOfBirth": "1996-10-24"
+    },
+    {
+      "customerId": "7137bd17-6df6-4cdb-8888-a6cec18e087d",
+      "firstName": "Jan",
+      "lastName": "Fischer",
+      "dateOfBirth": "1974-03-22"
+    },
+    {
+      "customerId": "ba6eaf44-f711-4e22-a700-51edf9d89678",
+      "firstName": "Blair",
+      "lastName": "Saunders",
+      "dateOfBirth": "1960-10-20"
+    },
+    {
+      "customerId": "d060239b-84a5-46a4-86db-a3f2eda799b9",
+      "firstName": "Gracie",
+      "lastName": "Burt",
+      "dateOfBirth": "1979-07-29"
+    },
+    {
+      "customerId": "5addbefc-2812-49cf-8489-06f67ec208e4",
+      "firstName": "Burris",
+      "lastName": "Mosley",
+      "dateOfBirth": "1956-04-19"
+    },
+    {
+      "customerId": "a7111904-64a5-4214-805a-1e0512322f34",
+      "firstName": "Denise",
+      "lastName": "Dominguez",
+      "dateOfBirth": "1950-09-18"
+    },
+    {
+      "customerId": "44273888-3bf4-471b-8274-88bcefa9f130",
+      "firstName": "Kline",
+      "lastName": "Christensen",
+      "dateOfBirth": "1984-09-26"
+    },
+    {
+      "customerId": "6441638a-019f-45ce-a6f1-80e2cabb956a",
+      "firstName": "Fernandez",
+      "lastName": "Albert",
+      "dateOfBirth": "1979-06-14"
+    },
+    {
+      "customerId": "4aeb1c52-6d48-4e79-a06c-bc37aa246a8e",
+      "firstName": "Hilda",
+      "lastName": "Evans",
+      "dateOfBirth": "1986-03-08"
+    },
+    {
+      "customerId": "1ef6bfbb-df89-4747-98ef-a3ba9c8cffd8",
+      "firstName": "Robles",
+      "lastName": "Kline",
+      "dateOfBirth": "1973-08-14"
+    },
+    {
+      "customerId": "f064cf43-56aa-4ee9-b43a-9c40cd3c4a28",
+      "firstName": "Vickie",
+      "lastName": "Reese",
+      "dateOfBirth": "1956-06-06"
+    },
+    {
+      "customerId": "66ab1881-2036-46fc-bbb6-4de81e3147ee",
+      "firstName": "Vaughan",
+      "lastName": "Petty",
+      "dateOfBirth": "1967-10-07"
+    },
+    {
+      "customerId": "27196b70-8bb7-468b-942a-d337fd0c31c0",
+      "firstName": "Warren",
+      "lastName": "Snyder",
+      "dateOfBirth": "1984-10-05"
+    },
+    {
+      "customerId": "b8e53bf5-68ae-42b1-b983-57aedd9d63e1",
+      "firstName": "Sykes",
+      "lastName": "Lancaster",
+      "dateOfBirth": "1952-06-30"
+    },
+    {
+      "customerId": "04962598-5d98-4e0c-a1a8-6a36ec249e3e",
+      "firstName": "Pollard",
+      "lastName": "Swanson",
+      "dateOfBirth": "1951-04-14"
+    },
+    {
+      "customerId": "13466a8a-3f8c-4bd6-8536-6d588a6d6017",
+      "firstName": "Hamilton",
+      "lastName": "Ramsey",
+      "dateOfBirth": "1995-11-19"
+    },
+    {
+      "customerId": "cdc7c2f0-50ba-498e-a6d3-879612a6acc3",
+      "firstName": "Magdalena",
+      "lastName": "Pittman",
+      "dateOfBirth": "1961-03-27"
+    }
+  ],
+  "policies": [
+    {
+      "policyId": "7bddf681-3ac9-40af-aed6-4b8db638f43f",
+      "provider": "Allianz",
+      "policyNumber": "622e471ba2aa220505c28936",
+      "startDate": "2020-04-09",
+      "endDate": "2020-11-21",
+      "createdAt": "2020-03-15",
+      "customerId": "cdc7c2f0-50ba-498e-a6d3-879612a6acc3",
+      "insuranceType": "HEALTH",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "4f09922b-a5a0-4d89-a994-875d01c67432",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471be8e3dbedb23003eb",
+      "startDate": "2020-06-05",
+      "endDate": "2022-02-14",
+      "createdAt": "2020-05-19",
+      "customerId": "159da495-f775-457a-b8e2-507d7c2c5bce",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "596c9405-70d9-48f3-a879-a781920065da",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b513adf85173d3b33",
+      "startDate": "2018-03-02",
+      "endDate": "2019-11-20",
+      "createdAt": "2018-02-01",
+      "customerId": "2715e53c-ab61-46ce-ab7b-871e12d3e016",
+      "insuranceType": "LIABILITY",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "5a5d555a-733a-4770-a0b7-d547287581ba",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bbbaad7be5c00733e",
+      "startDate": "2020-09-20",
+      "endDate": "2021-05-06",
+      "createdAt": "2020-08-24",
+      "customerId": "d8ec96c4-dc94-4bee-9aa9-4cd9d7fb6da5",
+      "insuranceType": "HOUSEHOLD",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "cc5e739f-9b9d-40e4-a7b3-8cb26b555047",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b9742c568f764bdee",
+      "startDate": "2019-06-26",
+      "endDate": "2020-07-21",
+      "createdAt": "2019-05-30",
+      "customerId": "cdc7c2f0-50ba-498e-a6d3-879612a6acc3",
+      "insuranceType": "LIABILITY",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "26933a09-70b3-4a91-bb51-101b3056f175",
+      "provider": "Allianz",
+      "policyNumber": "622e471b2f9b2b3ff0b805d3",
+      "startDate": "2018-10-06",
+      "endDate": "2019-07-09",
+      "createdAt": "2018-10-05",
+      "customerId": "13ca690a-fd99-468c-8e71-205017cd3938",
+      "insuranceType": "HEALTH",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "edc0ad8d-f86a-4a2a-a6bc-873dd5c7f190",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bdd1097c501e3dd83",
+      "startDate": "2018-03-25",
+      "endDate": "2018-05-18",
+      "createdAt": "2018-03-11",
+      "customerId": "49dce495-c6d6-46b5-a8dc-34bdcbe23897",
+      "insuranceType": "HEALTH",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "6a1e61af-d080-488d-a160-96374747d828",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b45c853f3cdae6fe3",
+      "startDate": "2020-03-24",
+      "endDate": "2020-08-05",
+      "createdAt": "2020-03-16",
+      "customerId": "ad368230-5cf0-44a4-87f4-8a94a3b69df8",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "3055ce93-f339-40e9-9010-7d13cbcf935c",
+      "provider": "Allianz",
+      "policyNumber": "622e471b663d881ae5473026",
+      "startDate": "2020-06-15",
+      "endDate": "2023-02-17",
+      "createdAt": "2020-06-02",
+      "customerId": "4aeb1c52-6d48-4e79-a06c-bc37aa246a8e",
+      "insuranceType": "HOUSEHOLD",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "8739375f-4757-459e-bdca-bfcf7055b87b",
+      "provider": "Allianz",
+      "policyNumber": "622e471b123f66c402392d8f",
+      "startDate": "2019-07-18",
+      "endDate": "2020-07-04",
+      "createdAt": "2019-06-27",
+      "customerId": "5b10d453-648a-4379-93da-a6311c7a5ccb",
+      "insuranceType": "HOUSEHOLD",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "e2dde9b6-5046-4495-9c63-c7718229d877",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b83692cb62d733f74",
+      "startDate": "2020-03-27",
+      "endDate": "2021-09-03",
+      "createdAt": "2020-03-12",
+      "customerId": "f499db1f-a933-45ba-aeb7-32f1a10d9f22",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "af7ead6c-3dea-4e56-b57a-68c760ee5493",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b3bfb922ccb13fd9e",
+      "startDate": "2020-12-23",
+      "endDate": "2022-04-01",
+      "createdAt": "2020-12-01",
+      "customerId": "e80bd767-01d5-48a3-9de5-0ebd0a1b9701",
+      "insuranceType": "LIABILITY",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "76772c4e-25bd-444e-a1ed-ac181f46969d",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b8f595b491921166d",
+      "startDate": "2021-01-18",
+      "endDate": "2023-06-07",
+      "createdAt": "2020-12-20",
+      "customerId": "c73dbbde-ab70-4e41-8336-f71b41683f1b",
+      "insuranceType": "LIABILITY",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "20a06ac1-6771-48da-9481-963a90ea9c6f",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bc4b2fdc33ba7636e",
+      "startDate": "2020-05-04",
+      "endDate": "2021-01-25",
+      "createdAt": "2020-04-09",
+      "customerId": "7138e169-aaab-4680-af5b-66028b187aba",
+      "insuranceType": "LIABILITY",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "1357a6e0-ed35-4a72-bd49-c8d375f1721b",
+      "provider": "Allianz",
+      "policyNumber": "622e471b04f23bb062e628cf",
+      "startDate": "2018-05-03",
+      "endDate": "2018-09-16",
+      "createdAt": "2018-04-15",
+      "customerId": "28b3cacd-9433-409d-968c-756242605ef3",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "10afe687-8c98-4039-96fa-34aaef54681e",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b00925ebc6e198a66",
+      "startDate": "2018-04-25",
+      "endDate": "2020-08-14",
+      "createdAt": "2018-04-09",
+      "customerId": "21c4bb98-a28f-4de9-a27b-52eacc598b33",
+      "insuranceType": "HOUSEHOLD",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "2c4cb8f3-dfe7-4e72-a94b-6c98e510a473",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b6168ddd2040453b3",
+      "startDate": "2018-08-27",
+      "endDate": "2018-11-04",
+      "createdAt": "2018-07-28",
+      "customerId": "073d8e81-1e79-4024-8308-a922f9f238db",
+      "insuranceType": "HOUSEHOLD",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "bc5e2a2f-33ae-4df1-a53a-1b42b86f66cf",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bb1e617bc94f0e3b7",
+      "startDate": "2018-06-18",
+      "endDate": "2020-01-22",
+      "createdAt": "2018-06-04",
+      "customerId": "5b10d453-648a-4379-93da-a6311c7a5ccb",
+      "insuranceType": "HEALTH",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "fabe3926-870b-4383-8b95-e421e23865ef",
+      "provider": "Allianz",
+      "policyNumber": "622e471b878b34b59df084ab",
+      "startDate": "2018-09-28",
+      "endDate": "2019-05-08",
+      "createdAt": "2018-09-11",
+      "customerId": "55dd01ff-e252-4bc2-ae53-58dbb76ceda9",
+      "insuranceType": "HOUSEHOLD",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "7f4bddf3-59b3-4f44-a55f-352518b1012b",
+      "provider": "Allianz",
+      "policyNumber": "622e471b9b77219d089636bc",
+      "startDate": "2020-08-30",
+      "endDate": "2021-07-18",
+      "createdAt": "2020-08-20",
+      "customerId": "807b8900-4252-4411-a254-0de73ce4c07e",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "a357553e-87ab-4414-85a8-b1012209a1ce",
+      "provider": "Allianz",
+      "policyNumber": "622e471be9e83434cb519469",
+      "startDate": "2021-10-26",
+      "endDate": "2024-05-07",
+      "createdAt": "2021-09-27",
+      "customerId": "bdb9a4c5-158b-49f1-9026-d13d7de23455",
+      "insuranceType": "HOUSEHOLD",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "0454ecc1-9876-4235-a4f9-a6c9435e3cef",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b0a98fa0eef180a5b",
+      "startDate": "2019-06-04",
+      "endDate": "2022-01-29",
+      "createdAt": "2019-06-01",
+      "customerId": "7137bd17-6df6-4cdb-8888-a6cec18e087d",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "4dcce607-7217-415b-b0d0-ba0e9699f081",
+      "provider": "Allianz",
+      "policyNumber": "622e471ba246b3df57a5d54b",
+      "startDate": "2021-04-27",
+      "endDate": "2022-10-07",
+      "createdAt": "2021-04-01",
+      "customerId": "0538dc6d-bd90-48ad-8ebf-6e347a6b1776",
+      "insuranceType": "HEALTH",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "90b97e8d-f5ef-4dfb-bfb1-c97bf9fffd24",
+      "provider": "Allianz",
+      "policyNumber": "622e471bf65670ab01789c48",
+      "startDate": "2020-08-05",
+      "endDate": "2022-05-06",
+      "createdAt": "2020-07-25",
+      "customerId": "24e24175-2f4f-4335-b5c7-da556cd9c70a",
+      "insuranceType": "LIABILITY",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "5fa0ea72-95fc-4b83-a5c7-c63ec2971e72",
+      "provider": "Allianz",
+      "policyNumber": "622e471b911e42f0d4bbd15c",
+      "startDate": "2018-12-11",
+      "endDate": "2019-11-06",
+      "createdAt": "2018-11-24",
+      "customerId": "e8f909ab-b894-43ed-8536-489194ffadfd",
+      "insuranceType": "LIABILITY",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "fcec63a6-9013-4a15-aae8-c61bf5fed82e",
+      "provider": "Allianz",
+      "policyNumber": "622e471b68583452c903c0be",
+      "startDate": "2021-10-31",
+      "endDate": "2023-06-23",
+      "createdAt": "2021-10-25",
+      "customerId": "bc87f25c-161c-480b-a6fe-6009e0d851df",
+      "insuranceType": "HEALTH",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "055b5184-ea20-4393-8759-d39d06dfa5b1",
+      "provider": "Allianz",
+      "policyNumber": "622e471bf65bf20a0ee6391e",
+      "startDate": "2021-05-06",
+      "endDate": "2021-10-21",
+      "createdAt": "2021-04-25",
+      "customerId": "dcaf8307-578a-4df5-bcf8-ed76cef898ba",
+      "insuranceType": "LIABILITY",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "03d496d9-fb99-4b60-9aac-59aec2e26dc1",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b4a122404f0f4401e",
+      "startDate": "2022-01-17",
+      "endDate": "2022-09-08",
+      "createdAt": "2021-12-26",
+      "customerId": "5b198957-3dd3-4baf-9873-483487424e4f",
+      "insuranceType": "HOUSEHOLD",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "3cb0add2-98b9-4f9a-aa90-6d819595379d",
+      "provider": "Allianz",
+      "policyNumber": "622e471bbd7366722f7a2115",
+      "startDate": "2020-01-22",
+      "endDate": "2022-03-02",
+      "createdAt": "2019-12-23",
+      "customerId": "27196b70-8bb7-468b-942a-d337fd0c31c0",
+      "insuranceType": "HOUSEHOLD",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "a9485cd1-965c-4bda-8c14-98b7c6920e66",
+      "provider": "Allianz",
+      "policyNumber": "622e471b48e4990f907c49e0",
+      "startDate": "2020-07-22",
+      "endDate": "2021-09-23",
+      "createdAt": "2020-07-13",
+      "customerId": "3c6bafc9-c097-487f-9a45-d1da48312a66",
+      "insuranceType": "HEALTH",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "78888198-db79-422f-ad0f-37643a41efcc",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b68f5429d0dcec9b4",
+      "startDate": "2018-05-08",
+      "endDate": "2018-12-23",
+      "createdAt": "2018-04-23",
+      "customerId": "b58721fc-cb5c-4da8-9c1f-d8b8a069ac71",
+      "insuranceType": "LIABILITY",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "46a281c3-be5d-44e4-8344-e9c6ab7dc4f0",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b899419a4ed2e295f",
+      "startDate": "2018-07-10",
+      "endDate": "2021-01-09",
+      "createdAt": "2018-06-27",
+      "customerId": "6441638a-019f-45ce-a6f1-80e2cabb956a",
+      "insuranceType": "HOUSEHOLD",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "6c1591aa-b49b-4c75-a1b4-e6d6c2dca09b",
+      "provider": "Allianz",
+      "policyNumber": "622e471b0461ec8d4bcbafb2",
+      "startDate": "2018-05-25",
+      "endDate": "2020-12-26",
+      "createdAt": "2018-05-01",
+      "customerId": "34c2167b-c548-42bb-a733-e9bb73506110",
+      "insuranceType": "HOUSEHOLD",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "8f12aefe-09fd-4f10-b7b8-473266bc64f8",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b945085185ee2c3f6",
+      "startDate": "2021-09-06",
+      "endDate": "2022-12-10",
+      "createdAt": "2021-08-17",
+      "customerId": "b0b8fd07-2dc0-4ab7-b8e9-f7a0261c4431",
+      "insuranceType": "HEALTH",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "6a21d914-a6cf-4a31-8292-e96c6d21f0cc",
+      "provider": "Allianz",
+      "policyNumber": "622e471b8da86f793a082439",
+      "startDate": "2020-09-22",
+      "endDate": "2021-05-22",
+      "createdAt": "2020-09-03",
+      "customerId": "fd30b498-2bad-4ef3-a3dc-486361f00e92",
+      "insuranceType": "HEALTH",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "feee4a7e-47a1-4db9-a16f-1dacebe0ee20",
+      "provider": "Allianz",
+      "policyNumber": "622e471b53770f00075eb5f1",
+      "startDate": "2020-02-27",
+      "endDate": "2022-11-02",
+      "createdAt": "2020-02-25",
+      "customerId": "526ac3b7-779f-4f4c-872d-8c4ab28000a4",
+      "insuranceType": "HOUSEHOLD",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "285bfd1e-35cf-4716-ac11-08824e2b6be5",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b0d7885bdf02d2213",
+      "startDate": "2018-07-19",
+      "endDate": "2020-01-22",
+      "createdAt": "2018-06-21",
+      "customerId": "44273888-3bf4-471b-8274-88bcefa9f130",
+      "insuranceType": "LIABILITY",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "8042f0a8-b17d-4e24-a165-5c6dd578606d",
+      "provider": "Allianz",
+      "policyNumber": "622e471bdde1c5629f1a27f7",
+      "startDate": "2021-05-05",
+      "endDate": "2023-06-26",
+      "createdAt": "2021-04-12",
+      "customerId": "b58721fc-cb5c-4da8-9c1f-d8b8a069ac71",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "f4f93bb2-0692-411d-bb6a-7320de222b7b",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bc61f13531c904b95",
+      "startDate": "2020-07-04",
+      "endDate": "2021-05-03",
+      "createdAt": "2020-06-04",
+      "customerId": "c5c70e12-0dde-48e0-8d79-6f92fb5b5f04",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "c9682180-ec0e-4c9b-9081-2b62ab34e81a",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b3654d5025e5c44d9",
+      "startDate": "2021-01-24",
+      "endDate": "2022-11-28",
+      "createdAt": "2021-01-20",
+      "customerId": "3d011db3-3dbc-493a-b4fe-780411b8f3f1",
+      "insuranceType": "HOUSEHOLD",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "ddd96888-68e7-477a-8d06-e07f5dd1a5fc",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471ba9cd4fd41c1c25d3",
+      "startDate": "2021-07-30",
+      "endDate": "2023-01-02",
+      "createdAt": "2021-07-16",
+      "customerId": "76a98247-3146-47be-96f9-687418a48bd6",
+      "insuranceType": "LIABILITY",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "fa855d99-a6cf-4979-8085-08d3ebabbe3c",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b8d4713a67a2e630a",
+      "startDate": "2021-02-23",
+      "endDate": "2023-03-22",
+      "createdAt": "2021-02-07",
+      "customerId": "04962598-5d98-4e0c-a1a8-6a36ec249e3e",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "afae101e-4e8b-41bb-a375-80f6a83c2948",
+      "provider": "Allianz",
+      "policyNumber": "622e471b78f27c2a090043d9",
+      "startDate": "2019-03-26",
+      "endDate": "2021-06-18",
+      "createdAt": "2019-03-18",
+      "customerId": "93a7a772-6401-4c02-b875-829073ea068f",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "8ecdf0b2-9180-4d7a-9e41-87675e6c19e2",
+      "provider": "Allianz",
+      "policyNumber": "622e471b9a21e8c744c6e236",
+      "startDate": "2021-09-15",
+      "endDate": "2023-11-30",
+      "createdAt": "2021-09-08",
+      "customerId": "526ac3b7-779f-4f4c-872d-8c4ab28000a4",
+      "insuranceType": "LIABILITY",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "c8eb9073-7867-48fe-8f4b-89d7f2d08203",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b0767ffd07e90df6b",
+      "startDate": "2018-05-31",
+      "endDate": "2020-05-20",
+      "createdAt": "2018-05-10",
+      "customerId": "64395a22-64b4-44e5-882c-367a8a209945",
+      "insuranceType": "HOUSEHOLD",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "097acb02-4264-4bb7-bed9-e33f99301894",
+      "provider": "Allianz",
+      "policyNumber": "622e471bca41bbc05161ab87",
+      "startDate": "2018-05-04",
+      "endDate": "2021-02-16",
+      "createdAt": "2018-04-22",
+      "customerId": "80bcdc86-c2d2-452c-814d-c869cb5f055d",
+      "insuranceType": "LIABILITY",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "0c23dd88-7344-4a8e-a477-4b5dd5338477",
+      "provider": "Allianz",
+      "policyNumber": "622e471bd8c16c9f564169cb",
+      "startDate": "2019-10-08",
+      "endDate": "2020-01-09",
+      "createdAt": "2019-09-22",
+      "customerId": "6a986891-0c7e-46bc-8d9a-5613dde51969",
+      "insuranceType": "HOUSEHOLD",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "468e6fdf-8c28-426c-8113-c4ee2adbf115",
+      "provider": "Allianz",
+      "policyNumber": "622e471b46773226a8014d86",
+      "startDate": "2021-11-28",
+      "endDate": "2023-07-27",
+      "createdAt": "2021-11-17",
+      "customerId": "64395a22-64b4-44e5-882c-367a8a209945",
+      "insuranceType": "LIABILITY",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "a654581a-ac39-4a3f-b49a-83b65c6375b5",
+      "provider": "Allianz",
+      "policyNumber": "622e471ba5f3c8d269b7ba15",
+      "startDate": "2020-03-12",
+      "endDate": "2020-06-20",
+      "createdAt": "2020-03-02",
+      "customerId": "44273888-3bf4-471b-8274-88bcefa9f130",
+      "insuranceType": "HOUSEHOLD",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "2d79eeb1-9b7f-41a5-aab0-0fb53156c16a",
+      "provider": "Allianz",
+      "policyNumber": "622e471b8e748baa7e95d444",
+      "startDate": "2020-01-30",
+      "endDate": "2020-05-02",
+      "createdAt": "2020-01-20",
+      "customerId": "0b5c56c7-d997-4902-bb9e-6dd301c2b8ad",
+      "insuranceType": "LIABILITY",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "0bb22dda-c415-4bdb-a9e5-3c710d3de3b7",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b3aaf5362c87b1ee1",
+      "startDate": "2018-06-20",
+      "endDate": "2018-10-09",
+      "createdAt": "2018-06-16",
+      "customerId": "3d011db3-3dbc-493a-b4fe-780411b8f3f1",
+      "insuranceType": "LIABILITY",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "b46478a8-17de-45f6-89fb-c59c3dcf474b",
+      "provider": "Allianz",
+      "policyNumber": "622e471bee3424ad6887b9bb",
+      "startDate": "2020-04-14",
+      "endDate": "2021-04-19",
+      "createdAt": "2020-03-27",
+      "customerId": "c9c0aa50-aaa3-45d8-b078-ea84f4bc1434",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "0d66bd94-d625-440c-b5fd-c83b75635326",
+      "provider": "Allianz",
+      "policyNumber": "622e471bd6b9adeced3a3a44",
+      "startDate": "2018-02-06",
+      "endDate": "2020-09-20",
+      "createdAt": "2018-01-28",
+      "customerId": "6441638a-019f-45ce-a6f1-80e2cabb956a",
+      "insuranceType": "LIABILITY",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "4fa462cf-5dc7-436d-afa1-733721273c8d",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b5f6fd0758a8f83ca",
+      "startDate": "2019-12-15",
+      "endDate": "2022-06-19",
+      "createdAt": "2019-11-24",
+      "customerId": "5addbefc-2812-49cf-8489-06f67ec208e4",
+      "insuranceType": "HEALTH",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "c179b107-77ed-4579-ade4-0ba42bcfada6",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b63d2bc8800dabd86",
+      "startDate": "2018-12-16",
+      "endDate": "2019-03-23",
+      "createdAt": "2018-12-01",
+      "customerId": "bbd01804-1f70-4bf4-aa14-93b1034c13b8",
+      "insuranceType": "HOUSEHOLD",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "c2a18931-cd24-4658-9f6c-2fdc04923a25",
+      "provider": "Allianz",
+      "policyNumber": "622e471b273e1381eddbb45d",
+      "startDate": "2018-05-05",
+      "endDate": "2019-05-01",
+      "createdAt": "2018-04-12",
+      "customerId": "d34f6211-6dfc-48ea-9a72-b5939bcd44f1",
+      "insuranceType": "HEALTH",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "f17f9d7c-8e12-497f-904a-813a3d76f211",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bf3ef850e1bd660fa",
+      "startDate": "2018-11-26",
+      "endDate": "2020-07-21",
+      "createdAt": "2018-10-30",
+      "customerId": "27196b70-8bb7-468b-942a-d337fd0c31c0",
+      "insuranceType": "HOUSEHOLD",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "12680fb6-38d4-4130-878f-7eda189c6f8a",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bc93b6d1f8a32ed4b",
+      "startDate": "2019-05-19",
+      "endDate": "2021-11-09",
+      "createdAt": "2019-04-29",
+      "customerId": "7137bd17-6df6-4cdb-8888-a6cec18e087d",
+      "insuranceType": "HOUSEHOLD",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "7017b279-1d28-42d2-9e99-b28314242a52",
+      "provider": "Allianz",
+      "policyNumber": "622e471b4f1e6678694a8e5c",
+      "startDate": "2019-09-06",
+      "endDate": "2020-04-04",
+      "createdAt": "2019-08-29",
+      "customerId": "fd557977-5e90-4891-adde-13948f849824",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "1832902a-8e68-45cc-be9c-8a35e00b88fc",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bef94f26fc28f8698",
+      "startDate": "2019-10-11",
+      "endDate": "2022-05-02",
+      "createdAt": "2019-10-03",
+      "customerId": "073d8e81-1e79-4024-8308-a922f9f238db",
+      "insuranceType": "LIABILITY",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "380589b6-b719-41d4-9377-fa4b5bd5632d",
+      "provider": "Allianz",
+      "policyNumber": "622e471bd3fcdd31e3b642d2",
+      "startDate": "2021-07-10",
+      "endDate": "2022-07-09",
+      "createdAt": "2021-06-14",
+      "customerId": "5b198957-3dd3-4baf-9873-483487424e4f",
+      "insuranceType": "HOUSEHOLD",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "e107d4b8-7be2-4900-9a61-ac3f79d494ee",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b034327e00d25c661",
+      "startDate": "2019-08-21",
+      "endDate": "2022-01-26",
+      "createdAt": "2019-07-22",
+      "customerId": "118f5e73-b4a6-4a03-9e4f-dc5b5e3ca7f0",
+      "insuranceType": "LIABILITY",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "b8660570-a244-4515-83a6-00531233ba36",
+      "provider": "Allianz",
+      "policyNumber": "622e471b2ab06b8f2f444112",
+      "startDate": "2019-03-02",
+      "endDate": "2021-11-14",
+      "createdAt": "2019-02-02",
+      "customerId": "2c309fa8-06cf-41c8-ad12-34cca5a06234",
+      "insuranceType": "HOUSEHOLD",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "c63a52ff-03a7-4632-8ebd-0565c398b6f8",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b6f0ad3509f120b82",
+      "startDate": "2021-05-03",
+      "endDate": "2022-05-15",
+      "createdAt": "2021-05-01",
+      "customerId": "f3539ac3-91b2-436e-ac3d-6902abd90706",
+      "insuranceType": "LIABILITY",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "e8e2db2a-c944-47dd-b90d-10c81f7ff211",
+      "provider": "Allianz",
+      "policyNumber": "622e471bb404e31cf71fa21a",
+      "startDate": "2020-05-24",
+      "endDate": "2021-09-10",
+      "createdAt": "2020-05-17",
+      "customerId": "f499db1f-a933-45ba-aeb7-32f1a10d9f22",
+      "insuranceType": "HEALTH",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "64d220af-5e34-4bdb-923b-7e3f4586d60b",
+      "provider": "Allianz",
+      "policyNumber": "622e471b89dbd0891bf71bcc",
+      "startDate": "2018-06-13",
+      "endDate": "2019-09-16",
+      "createdAt": "2018-06-08",
+      "customerId": "3d011db3-3dbc-493a-b4fe-780411b8f3f1",
+      "insuranceType": "HOUSEHOLD",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "1cdd9ccf-f59c-4f08-9aae-f06959d58463",
+      "provider": "Allianz",
+      "policyNumber": "622e471b4c06c475d7f8e9a0",
+      "startDate": "2018-05-20",
+      "endDate": "2018-10-05",
+      "createdAt": "2018-04-24",
+      "customerId": "41d58116-510e-448b-b967-e32e06b3cdf7",
+      "insuranceType": "LIABILITY",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "88db61f0-8bb0-49c0-b6c5-8a73af8e358d",
+      "provider": "Allianz",
+      "policyNumber": "622e471bfbd3cf4420c5c84f",
+      "startDate": "2021-05-07",
+      "endDate": "2022-08-28",
+      "createdAt": "2021-04-25",
+      "customerId": "86787ab0-963c-4101-974b-80df06e73a60",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "c1be95ef-5bab-496b-a854-45488e54eeb2",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b68af6b794880270a",
+      "startDate": "2021-05-25",
+      "endDate": "2024-03-03",
+      "createdAt": "2021-05-10",
+      "customerId": "159da495-f775-457a-b8e2-507d7c2c5bce",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "521541bf-3e5d-4e5c-9992-f160f961c44b",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b28ea6bf1a2cb3433",
+      "startDate": "2019-06-08",
+      "endDate": "2020-07-02",
+      "createdAt": "2019-05-18",
+      "customerId": "7138e169-aaab-4680-af5b-66028b187aba",
+      "insuranceType": "HOUSEHOLD",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "2d754024-0107-475b-ac23-6d0d853668de",
+      "provider": "Allianz",
+      "policyNumber": "622e471bcfbb1516a460f599",
+      "startDate": "2019-05-04",
+      "endDate": "2022-03-11",
+      "createdAt": "2019-04-19",
+      "customerId": "7f59105b-47b2-4b88-aea4-7281d298800b",
+      "insuranceType": "HOUSEHOLD",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "3350dc6b-27eb-4aa5-9ac8-7fdc58edd485",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b370c56377a70fc39",
+      "startDate": "2019-12-20",
+      "endDate": "2021-09-27",
+      "createdAt": "2019-11-25",
+      "customerId": "1152fa47-83c4-4128-b197-e82ecdd8c052",
+      "insuranceType": "HOUSEHOLD",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "1ee23269-72a8-4f4d-8bba-e6b9c5b281f2",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b6f2ab54d7bf01c1c",
+      "startDate": "2018-03-18",
+      "endDate": "2020-04-11",
+      "createdAt": "2018-03-06",
+      "customerId": "c5c70e12-0dde-48e0-8d79-6f92fb5b5f04",
+      "insuranceType": "HEALTH",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "883f1942-2fb3-499d-9d0a-82876413c9c2",
+      "provider": "Allianz",
+      "policyNumber": "622e471ba454a3b811a89362",
+      "startDate": "2020-09-04",
+      "endDate": "2021-06-17",
+      "createdAt": "2020-08-18",
+      "customerId": "d34f6211-6dfc-48ea-9a72-b5939bcd44f1",
+      "insuranceType": "HOUSEHOLD",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "c6215c5d-c3e9-448f-9c43-cba67c211a94",
+      "provider": "Allianz",
+      "policyNumber": "622e471b4cda087e5a709dee",
+      "startDate": "2020-09-23",
+      "endDate": "2022-07-21",
+      "createdAt": "2020-09-06",
+      "customerId": "9e299a5e-b356-43ce-8655-28c1af9bbef3",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "4559cdda-e930-4b10-bb67-9bbab8319887",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471be5b7ca32d042bb83",
+      "startDate": "2021-09-20",
+      "endDate": "2022-08-02",
+      "createdAt": "2021-08-30",
+      "customerId": "625e7dc5-de5f-45ec-a418-fee3ed967fa5",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "cb6f9e9c-81e5-4d5c-ae0a-2769f68977f7",
+      "provider": "Allianz",
+      "policyNumber": "622e471b05c67dc77092b41a",
+      "startDate": "2018-05-16",
+      "endDate": "2018-07-06",
+      "createdAt": "2018-04-21",
+      "customerId": "5addbefc-2812-49cf-8489-06f67ec208e4",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "fc40afa9-97de-4ae0-9055-35f39240595e",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b691a8cd0e1c62e30",
+      "startDate": "2021-02-28",
+      "endDate": "2023-09-07",
+      "createdAt": "2021-02-13",
+      "customerId": "625e7dc5-de5f-45ec-a418-fee3ed967fa5",
+      "insuranceType": "HOUSEHOLD",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "f464b7c4-9e42-45e0-bc65-5237f1f3687c",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bae28af32a718a701",
+      "startDate": "2021-02-26",
+      "endDate": "2023-03-29",
+      "createdAt": "2021-02-23",
+      "customerId": "a7111904-64a5-4214-805a-1e0512322f34",
+      "insuranceType": "HOUSEHOLD",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "f3fc2de9-5ac1-4795-83c6-4eea49303c53",
+      "provider": "Allianz",
+      "policyNumber": "622e471b4f0d990cfa776b9c",
+      "startDate": "2018-07-31",
+      "endDate": "2019-01-03",
+      "createdAt": "2018-07-20",
+      "customerId": "f499db1f-a933-45ba-aeb7-32f1a10d9f22",
+      "insuranceType": "HOUSEHOLD",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "2275d028-c41e-461c-83cc-9a43130fc7a6",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bee7988eabb18c04a",
+      "startDate": "2019-10-25",
+      "endDate": "2021-03-22",
+      "createdAt": "2019-10-11",
+      "customerId": "f3539ac3-91b2-436e-ac3d-6902abd90706",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "263956e1-070d-48d0-8b0d-ec5f99118e38",
+      "provider": "Allianz",
+      "policyNumber": "622e471bcf56e82067ee0d3d",
+      "startDate": "2019-11-08",
+      "endDate": "2021-06-01",
+      "createdAt": "2019-10-21",
+      "customerId": "13466a8a-3f8c-4bd6-8536-6d588a6d6017",
+      "insuranceType": "LIABILITY",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "b1864a29-4211-4ec6-be37-6549d29d6f03",
+      "provider": "Allianz",
+      "policyNumber": "622e471b17c99f628a792ae9",
+      "startDate": "2018-10-22",
+      "endDate": "2019-01-23",
+      "createdAt": "2018-10-02",
+      "customerId": "d8216b5c-16e6-45e3-9b35-276c356f5431",
+      "insuranceType": "HOUSEHOLD",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "ac90e13e-a1e3-488a-b19a-6138dfb16d6e",
+      "provider": "Allianz",
+      "policyNumber": "622e471bd04b2f36a2887b7b",
+      "startDate": "2020-07-26",
+      "endDate": "2022-09-28",
+      "createdAt": "2020-07-24",
+      "customerId": "86af0178-6573-4b42-a4de-c268577f0413",
+      "insuranceType": "HEALTH",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "edd60bc8-5e6e-4ac6-928c-382676a0878b",
+      "provider": "Allianz",
+      "policyNumber": "622e471b6a6be23bc31c552e",
+      "startDate": "2020-10-28",
+      "endDate": "2022-01-23",
+      "createdAt": "2020-09-30",
+      "customerId": "80bcdc86-c2d2-452c-814d-c869cb5f055d",
+      "insuranceType": "HOUSEHOLD",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "193e0cdd-e9ac-4e8f-b48d-871fdcbc5c83",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bd1fea6bfb83dfd4c",
+      "startDate": "2022-01-06",
+      "endDate": "2024-10-22",
+      "createdAt": "2021-12-07",
+      "customerId": "86787ab0-963c-4101-974b-80df06e73a60",
+      "insuranceType": "HOUSEHOLD",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "02de089d-3544-4eb4-ae12-d676c170b29a",
+      "provider": "Allianz",
+      "policyNumber": "622e471b79e2b948e5bd8009",
+      "startDate": "2018-09-18",
+      "endDate": "2021-06-06",
+      "createdAt": "2018-08-20",
+      "customerId": "5b10d453-648a-4379-93da-a6311c7a5ccb",
+      "insuranceType": "HOUSEHOLD",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "4c131b96-06b1-4f9b-bac1-0648568834a4",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b7f1c907edd21166d",
+      "startDate": "2021-06-14",
+      "endDate": "2023-09-29",
+      "createdAt": "2021-05-18",
+      "customerId": "8cccf713-bf47-4a7a-95bd-d7414d8ee80c",
+      "insuranceType": "HOUSEHOLD",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "5367768d-a479-484d-8d67-de3a3b5a3129",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b76efcefefae5b91a",
+      "startDate": "2021-01-08",
+      "endDate": "2023-10-03",
+      "createdAt": "2021-01-04",
+      "customerId": "f064cf43-56aa-4ee9-b43a-9c40cd3c4a28",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "4044252b-b69d-42ba-b01e-edb5a03842ef",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b6b1edf0f77ca7d52",
+      "startDate": "2018-04-20",
+      "endDate": "2020-01-17",
+      "createdAt": "2018-03-23",
+      "customerId": "d470ad9a-6947-4191-a673-fcc5efdc0656",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "579d3ed2-7c9d-4961-bb84-4ab40d81f38b",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471baf817bd2a101f77c",
+      "startDate": "2018-02-05",
+      "endDate": "2019-11-08",
+      "createdAt": "2018-01-29",
+      "customerId": "0ebcffd8-a8c2-4dcd-b3b3-c96508254e8b",
+      "insuranceType": "LIABILITY",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "810805e8-6f0b-4ee4-85da-ffc9ba229417",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b3b942c659e53568a",
+      "startDate": "2021-03-16",
+      "endDate": "2022-08-09",
+      "createdAt": "2021-03-06",
+      "customerId": "b8e53bf5-68ae-42b1-b983-57aedd9d63e1",
+      "insuranceType": "LIABILITY",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "4a27af0d-8fdb-4de0-9e4d-87bf9bc56be1",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471ba8fcc988cdf269a7",
+      "startDate": "2021-02-26",
+      "endDate": "2023-06-28",
+      "createdAt": "2021-02-06",
+      "customerId": "d84889ca-8abf-4962-b1b5-aadd2b1b4505",
+      "insuranceType": "HEALTH",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "af251bb1-0f9d-4072-a7f8-4c70026622e4",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b8f82e957af753dcc",
+      "startDate": "2019-06-29",
+      "endDate": "2022-02-18",
+      "createdAt": "2019-06-25",
+      "customerId": "d8ec96c4-dc94-4bee-9aa9-4cd9d7fb6da5",
+      "insuranceType": "HOUSEHOLD",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "a5c3806c-abd8-4a8e-923e-1795883d3c65",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b6a480f680d314c62",
+      "startDate": "2021-03-05",
+      "endDate": "2023-10-08",
+      "createdAt": "2021-03-02",
+      "customerId": "118f5e73-b4a6-4a03-9e4f-dc5b5e3ca7f0",
+      "insuranceType": "HOUSEHOLD",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "466f5682-ff99-4571-8062-23e20998da2c",
+      "provider": "Allianz",
+      "policyNumber": "622e471bff6b594e510692b1",
+      "startDate": "2019-01-06",
+      "endDate": "2020-05-05",
+      "createdAt": "2018-12-26",
+      "customerId": "414246ef-fbad-489a-99f6-3e76315ad6af",
+      "insuranceType": "HOUSEHOLD",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "1cfd25a2-0c99-48cb-acd5-615893afac1c",
+      "provider": "Allianz",
+      "policyNumber": "622e471b4f1689b1b30921a7",
+      "startDate": "2020-08-10",
+      "endDate": "2022-11-16",
+      "createdAt": "2020-07-31",
+      "customerId": "96516a10-6de8-499d-b9bc-cb2cb01f8189",
+      "insuranceType": "HOUSEHOLD",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "49bc41c4-fd3c-47ae-b010-707859181d36",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bed87bba01d21593b",
+      "startDate": "2021-12-24",
+      "endDate": "2023-06-21",
+      "createdAt": "2021-12-13",
+      "customerId": "2715e53c-ab61-46ce-ab7b-871e12d3e016",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "a5ec3f8b-cd49-4f2f-bba9-65fa742a438b",
+      "provider": "Allianz",
+      "policyNumber": "622e471bb5859d5a4dc4a8c5",
+      "startDate": "2020-05-07",
+      "endDate": "2020-12-19",
+      "createdAt": "2020-04-18",
+      "customerId": "28b3cacd-9433-409d-968c-756242605ef3",
+      "insuranceType": "LIABILITY",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "db4e43a2-bba3-4beb-a059-ed67e78619de",
+      "provider": "Allianz",
+      "policyNumber": "622e471bf0ac2aa24fcc1dc5",
+      "startDate": "2020-03-27",
+      "endDate": "2020-12-05",
+      "createdAt": "2020-03-05",
+      "customerId": "27196b70-8bb7-468b-942a-d337fd0c31c0",
+      "insuranceType": "HEALTH",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "d700fc84-d1c0-4d90-be0c-25ab2f5f9c3f",
+      "provider": "Allianz",
+      "policyNumber": "622e471b1465358a90d3b52f",
+      "startDate": "2020-01-26",
+      "endDate": "2021-05-08",
+      "createdAt": "2020-01-05",
+      "customerId": "bbd01804-1f70-4bf4-aa14-93b1034c13b8",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "f484a55f-51c0-4078-b8c9-708672991ade",
+      "provider": "Allianz",
+      "policyNumber": "622e471b94a03287a5a5157d",
+      "startDate": "2020-06-16",
+      "endDate": "2020-09-30",
+      "createdAt": "2020-06-14",
+      "customerId": "d470ad9a-6947-4191-a673-fcc5efdc0656",
+      "insuranceType": "HEALTH",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "98ffacca-3abe-40a9-a8a0-88c53f65c142",
+      "provider": "Allianz",
+      "policyNumber": "622e471b62b8399047122fe5",
+      "startDate": "2018-10-31",
+      "endDate": "2020-03-13",
+      "createdAt": "2018-10-05",
+      "customerId": "159da495-f775-457a-b8e2-507d7c2c5bce",
+      "insuranceType": "HEALTH",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "47c78a5c-5f69-42f6-b8d3-035b33d0b994",
+      "provider": "Allianz",
+      "policyNumber": "622e471ba26f187401c8f7e5",
+      "startDate": "2019-06-27",
+      "endDate": "2022-02-16",
+      "createdAt": "2019-06-25",
+      "customerId": "807b8900-4252-4411-a254-0de73ce4c07e",
+      "insuranceType": "HEALTH",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "42e5ac20-935c-43dc-8d92-289e53288bff",
+      "provider": "Allianz",
+      "policyNumber": "622e471b21550e823f83318c",
+      "startDate": "2019-11-15",
+      "endDate": "2020-02-22",
+      "createdAt": "2019-11-02",
+      "customerId": "80bcdc86-c2d2-452c-814d-c869cb5f055d",
+      "insuranceType": "LIABILITY",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "9504b43e-e322-40a9-b3e2-caaf7d3223e5",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b0da61fc464f6ca88",
+      "startDate": "2018-05-03",
+      "endDate": "2020-02-12",
+      "createdAt": "2018-04-16",
+      "customerId": "6a77fdc1-7ddd-49d3-b4d6-f4404babc2cc",
+      "insuranceType": "LIABILITY",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "a07a4983-c7ec-4751-a254-4dd4e686b815",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b1e750d19cc0343f5",
+      "startDate": "2020-12-12",
+      "endDate": "2023-10-05",
+      "createdAt": "2020-12-09",
+      "customerId": "5b26e80f-8f82-43c9-989f-18290c05dd65",
+      "insuranceType": "HOUSEHOLD",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "9fa0287d-df19-4207-ba40-e43e6c783402",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bfb197c3cab39088d",
+      "startDate": "2019-03-08",
+      "endDate": "2020-05-10",
+      "createdAt": "2019-02-14",
+      "customerId": "3042e24e-6aef-489b-9029-a606dab20e64",
+      "insuranceType": "LIABILITY",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "791f5a0f-a91d-4615-be63-a7554b6a61bf",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bdecf1f8c544d7784",
+      "startDate": "2018-12-05",
+      "endDate": "2021-02-09",
+      "createdAt": "2018-11-06",
+      "customerId": "86af0178-6573-4b42-a4de-c268577f0413",
+      "insuranceType": "HOUSEHOLD",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "3304fc86-7c51-410a-86ed-3f3391d7ab95",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bc2079f8f4fdbc60e",
+      "startDate": "2018-05-06",
+      "endDate": "2019-07-22",
+      "createdAt": "2018-04-19",
+      "customerId": "3ad2cda4-4c62-44a1-b5b2-407e15f9ea8e",
+      "insuranceType": "HEALTH",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "d2198345-c293-4fdc-bca9-440bfe230361",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b79f25aba548cc4ca",
+      "startDate": "2020-02-25",
+      "endDate": "2020-05-10",
+      "createdAt": "2020-02-14",
+      "customerId": "f97a113f-4498-40ac-8598-84d28bd7ddfe",
+      "insuranceType": "HEALTH",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "af10e18a-3687-4278-9a51-0091dc167d0c",
+      "provider": "Allianz",
+      "policyNumber": "622e471b8514ff4c3801d98b",
+      "startDate": "2019-07-20",
+      "endDate": "2019-12-07",
+      "createdAt": "2019-07-08",
+      "customerId": "1340e0bc-d914-46e6-b6c2-86f87e511466",
+      "insuranceType": "HOUSEHOLD",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "fa9d52f5-15fd-4148-a331-a24a79879155",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b73463912acb27d6e",
+      "startDate": "2019-08-13",
+      "endDate": "2022-05-06",
+      "createdAt": "2019-07-26",
+      "customerId": "bc87f25c-161c-480b-a6fe-6009e0d851df",
+      "insuranceType": "HOUSEHOLD",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "51e0590b-8d1c-4823-ab39-4fb6b8ef2983",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b93f5b14b7dfc14da",
+      "startDate": "2021-01-01",
+      "endDate": "2021-02-13",
+      "createdAt": "2020-12-13",
+      "customerId": "28b3cacd-9433-409d-968c-756242605ef3",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "5cefdaad-eba4-4248-a8b7-dbe44f62dba8",
+      "provider": "Allianz",
+      "policyNumber": "622e471b842960eb1fe4d49b",
+      "startDate": "2020-08-01",
+      "endDate": "2022-09-15",
+      "createdAt": "2020-07-19",
+      "customerId": "86af0178-6573-4b42-a4de-c268577f0413",
+      "insuranceType": "HEALTH",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "f24e2fc8-cabd-4050-a920-c056333ee2e7",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b8e08c19ef7edd14e",
+      "startDate": "2019-10-28",
+      "endDate": "2021-05-24",
+      "createdAt": "2019-10-13",
+      "customerId": "2715e53c-ab61-46ce-ab7b-871e12d3e016",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "70aa392d-7541-4997-9af4-23338a819db3",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471be0ddfff2c25177ff",
+      "startDate": "2019-03-11",
+      "endDate": "2021-02-19",
+      "createdAt": "2019-03-06",
+      "customerId": "7984a0c2-1bc5-4a53-b275-3224fb165260",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "9d7aec9a-5757-47c7-a927-b05bbbf088a8",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bae3a97d4e8a11c87",
+      "startDate": "2020-06-21",
+      "endDate": "2020-12-11",
+      "createdAt": "2020-06-09",
+      "customerId": "22c6da57-7d89-46d4-abe8-b832c90994f1",
+      "insuranceType": "HOUSEHOLD",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "7a5fc6eb-076f-4c80-8bf1-35a718f8a6db",
+      "provider": "Allianz",
+      "policyNumber": "622e471bcfcbe39e00034822",
+      "startDate": "2021-02-19",
+      "endDate": "2021-04-12",
+      "createdAt": "2021-01-30",
+      "customerId": "77549c5a-1465-4705-a729-cc37ddc1af67",
+      "insuranceType": "HOUSEHOLD",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "1232cd06-fcf6-4174-a4f2-a041bab18bc5",
+      "provider": "Allianz",
+      "policyNumber": "622e471b32bd2647bbdea11f",
+      "startDate": "2021-07-08",
+      "endDate": "2023-11-18",
+      "createdAt": "2021-06-17",
+      "customerId": "c2827648-152c-439c-a0b4-849fd55bb44f",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "c837340f-628d-441a-9891-8ca8492e15b8",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b0d0c1ee54fece095",
+      "startDate": "2019-02-24",
+      "endDate": "2019-09-07",
+      "createdAt": "2019-02-21",
+      "customerId": "9c9f2fa4-87c7-4711-ba66-b23dc9adec26",
+      "insuranceType": "HOUSEHOLD",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "edc97485-3f0a-41f3-81f0-2069c11f4c20",
+      "provider": "Allianz",
+      "policyNumber": "622e471b9f24724e2b2da1ac",
+      "startDate": "2020-04-09",
+      "endDate": "2020-08-16",
+      "createdAt": "2020-03-19",
+      "customerId": "4aeb1c52-6d48-4e79-a06c-bc37aa246a8e",
+      "insuranceType": "HOUSEHOLD",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "879d7f05-7ef6-48f6-8c07-559d8ba1497f",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b685a7230efaa39e2",
+      "startDate": "2019-02-19",
+      "endDate": "2019-05-09",
+      "createdAt": "2019-02-09",
+      "customerId": "a1f70e53-2259-4867-8d38-a81898c0bc92",
+      "insuranceType": "HEALTH",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "a44df671-737d-42f4-a317-b91173b7c23b",
+      "provider": "Allianz",
+      "policyNumber": "622e471bd04004635dd87c9b",
+      "startDate": "2020-08-15",
+      "endDate": "2022-10-14",
+      "createdAt": "2020-07-26",
+      "customerId": "7984a0c2-1bc5-4a53-b275-3224fb165260",
+      "insuranceType": "LIABILITY",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "b48c2bb2-7237-4edd-85db-d9c605f903c7",
+      "provider": "Allianz",
+      "policyNumber": "622e471bd150ae2399deb864",
+      "startDate": "2021-05-11",
+      "endDate": "2023-11-28",
+      "createdAt": "2021-05-04",
+      "customerId": "159da495-f775-457a-b8e2-507d7c2c5bce",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "4c61ef79-cc78-453f-87d4-5427df91747e",
+      "provider": "Allianz",
+      "policyNumber": "622e471b05becbbf3cb1cda3",
+      "startDate": "2019-09-25",
+      "endDate": "2022-04-15",
+      "createdAt": "2019-09-16",
+      "customerId": "4f0df34c-be99-4c6a-a19d-646000d8ca07",
+      "insuranceType": "LIABILITY",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "98938b63-9aeb-43fd-9c53-512fa63e61b8",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b9fe4bbf12c50c77a",
+      "startDate": "2018-10-30",
+      "endDate": "2019-01-02",
+      "createdAt": "2018-10-08",
+      "customerId": "1ef6bfbb-df89-4747-98ef-a3ba9c8cffd8",
+      "insuranceType": "HOUSEHOLD",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "29052704-9609-402e-9527-7eb07d691b56",
+      "provider": "Allianz",
+      "policyNumber": "622e471b022eba4c6836b067",
+      "startDate": "2019-05-03",
+      "endDate": "2021-04-26",
+      "createdAt": "2019-04-15",
+      "customerId": "64395a22-64b4-44e5-882c-367a8a209945",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "f1be6db2-2312-4e90-9fdf-98254776035b",
+      "provider": "Allianz",
+      "policyNumber": "622e471b3796c7ad349367e0",
+      "startDate": "2021-10-28",
+      "endDate": "2022-03-20",
+      "createdAt": "2021-10-25",
+      "customerId": "d060239b-84a5-46a4-86db-a3f2eda799b9",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "4b00d06e-bbe7-41bc-90aa-a652537141a7",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bd55115cbbd7ef652",
+      "startDate": "2020-08-09",
+      "endDate": "2021-06-01",
+      "createdAt": "2020-07-17",
+      "customerId": "a1f70e53-2259-4867-8d38-a81898c0bc92",
+      "insuranceType": "LIABILITY",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "315bf5b8-0837-4744-ab8d-8f8a0e1b0540",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bb2b587d54040e606",
+      "startDate": "2018-09-27",
+      "endDate": "2020-07-23",
+      "createdAt": "2018-08-29",
+      "customerId": "95727344-a635-41dd-a218-46453d9114fd",
+      "insuranceType": "HEALTH",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "bf8b6062-cbf7-40b3-8e69-13e09510d2d9",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b6406f7cb9f95a09a",
+      "startDate": "2018-11-11",
+      "endDate": "2020-12-17",
+      "createdAt": "2018-11-06",
+      "customerId": "f064cf43-56aa-4ee9-b43a-9c40cd3c4a28",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "9a063c37-4a79-44c6-b236-35c826ac768b",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bddd1c27fd2b270f0",
+      "startDate": "2020-04-28",
+      "endDate": "2021-12-27",
+      "createdAt": "2020-04-11",
+      "customerId": "13466a8a-3f8c-4bd6-8536-6d588a6d6017",
+      "insuranceType": "HOUSEHOLD",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "076f0492-070b-4453-89a8-1f6f62dce2f8",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b3f8712dbabbd5e0f",
+      "startDate": "2021-11-09",
+      "endDate": "2022-05-03",
+      "createdAt": "2021-10-31",
+      "customerId": "9fdf6e7d-e0c3-452e-bcfc-35738acd8cbd",
+      "insuranceType": "LIABILITY",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "fe5734ef-791a-464e-9417-940e5a8beb67",
+      "provider": "Allianz",
+      "policyNumber": "622e471b9b57e8410a2a4826",
+      "startDate": "2021-11-04",
+      "endDate": "2024-02-18",
+      "createdAt": "2021-11-03",
+      "customerId": "6d6dd456-b101-4a33-8e3a-950561ead816",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "51ff551b-3292-4c30-a61a-4362b269c79a",
+      "provider": "Allianz",
+      "policyNumber": "622e471ba0b067a3bfe49342",
+      "startDate": "2020-10-27",
+      "endDate": "2023-08-21",
+      "createdAt": "2020-10-26",
+      "customerId": "c2827648-152c-439c-a0b4-849fd55bb44f",
+      "insuranceType": "HEALTH",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "5c7341e1-25c1-4e16-8d2b-5c4f1464bbe2",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b86393237c6865c6a",
+      "startDate": "2018-10-19",
+      "endDate": "2021-03-04",
+      "createdAt": "2018-09-30",
+      "customerId": "33383693-f690-4b58-99b0-4898d3ed2060",
+      "insuranceType": "HEALTH",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "cc0358fe-2285-4c18-9810-663176531db9",
+      "provider": "Allianz",
+      "policyNumber": "622e471b8db30878ea6f439c",
+      "startDate": "2019-11-08",
+      "endDate": "2021-06-23",
+      "createdAt": "2019-10-16",
+      "customerId": "86787ab0-963c-4101-974b-80df06e73a60",
+      "insuranceType": "HOUSEHOLD",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "17e7671c-7f9d-454b-bbff-229b2e5319c3",
+      "provider": "Allianz",
+      "policyNumber": "622e471b1e9fd63216511d98",
+      "startDate": "2018-05-14",
+      "endDate": "2020-10-20",
+      "createdAt": "2018-05-08",
+      "customerId": "895f4879-067e-469a-861b-8d74f4962f36",
+      "insuranceType": "HEALTH",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "8b3cfbfa-d5ed-40a1-966c-e5900462e6e2",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471ba103e07a25652ee9",
+      "startDate": "2019-12-28",
+      "endDate": "2020-09-08",
+      "createdAt": "2019-12-14",
+      "customerId": "3ee409d2-70dd-41cc-9a25-4158f49df309",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "01d4e3e8-d689-4c60-ada4-b68f5765ae63",
+      "provider": "Allianz",
+      "policyNumber": "622e471b7bdac5c53557b8e7",
+      "startDate": "2019-08-15",
+      "endDate": "2022-04-24",
+      "createdAt": "2019-07-23",
+      "customerId": "6a4faeab-4e3a-472a-8603-39de2deab43f",
+      "insuranceType": "LIABILITY",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "daafbbbb-6aa7-40d3-ad25-65354c615c06",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bca2fc637991909e4",
+      "startDate": "2022-01-04",
+      "endDate": "2024-06-13",
+      "createdAt": "2021-12-12",
+      "customerId": "27196b70-8bb7-468b-942a-d337fd0c31c0",
+      "insuranceType": "HOUSEHOLD",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "87b0862d-b6ce-4029-aa17-c00aabd440c8",
+      "provider": "Allianz",
+      "policyNumber": "622e471b330965cea57ce8e7",
+      "startDate": "2021-06-08",
+      "endDate": "2022-02-22",
+      "createdAt": "2021-05-27",
+      "customerId": "33383693-f690-4b58-99b0-4898d3ed2060",
+      "insuranceType": "HEALTH",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "972d3a63-f512-412d-b9ee-9b7c8bddfdd3",
+      "provider": "Allianz",
+      "policyNumber": "622e471b0cdcb2bf5775b825",
+      "startDate": "2021-07-29",
+      "endDate": "2022-07-01",
+      "createdAt": "2021-07-23",
+      "customerId": "cdc7c2f0-50ba-498e-a6d3-879612a6acc3",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "69e85072-9f92-4e2f-98bd-ba17f4e046e4",
+      "provider": "Allianz",
+      "policyNumber": "622e471ba7208bd19d8102cf",
+      "startDate": "2020-02-29",
+      "endDate": "2020-12-26",
+      "createdAt": "2020-02-20",
+      "customerId": "93a7a772-6401-4c02-b875-829073ea068f",
+      "insuranceType": "LIABILITY",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "c8aec6fa-1f9f-4c4f-8519-89433fd9af08",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b3ddc6e402bd5ba81",
+      "startDate": "2021-03-12",
+      "endDate": "2022-03-31",
+      "createdAt": "2021-03-04",
+      "customerId": "0c23de4a-206e-4540-9778-1f6f938d9109",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "da1b47ad-3790-484e-98ec-bdff7aae6e72",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b63e6a9530d4cff94",
+      "startDate": "2021-08-18",
+      "endDate": "2024-01-06",
+      "createdAt": "2021-08-09",
+      "customerId": "ebf35ef5-4cd5-4e0b-891e-11020018d177",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "81304d92-0431-4ad8-9d8f-c3428bef0a30",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b77584bf2bf651a02",
+      "startDate": "2018-11-17",
+      "endDate": "2019-08-08",
+      "createdAt": "2018-11-09",
+      "customerId": "f97a113f-4498-40ac-8598-84d28bd7ddfe",
+      "insuranceType": "HOUSEHOLD",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "5ce1a27f-1bbb-428e-9588-86bff43a4f07",
+      "provider": "Allianz",
+      "policyNumber": "622e471ba16bf0bddfd10a68",
+      "startDate": "2019-03-18",
+      "endDate": "2020-05-02",
+      "createdAt": "2019-03-05",
+      "customerId": "c2827648-152c-439c-a0b4-849fd55bb44f",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "b6538139-a626-4eed-8f6d-edf0f9053ce4",
+      "provider": "Allianz",
+      "policyNumber": "622e471b895d2e01a8633cec",
+      "startDate": "2019-04-08",
+      "endDate": "2020-06-25",
+      "createdAt": "2019-03-20",
+      "customerId": "fcc0e0c3-32ed-4329-8057-5c71c514eab0",
+      "insuranceType": "HEALTH",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "3d21ed08-ce9b-4e07-8b59-6128003e335d",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b423c53f997b52526",
+      "startDate": "2021-02-14",
+      "endDate": "2023-08-06",
+      "createdAt": "2021-01-16",
+      "customerId": "33383693-f690-4b58-99b0-4898d3ed2060",
+      "insuranceType": "HEALTH",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "4db3e6dc-c017-4650-9660-7e5afcc8f048",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b3ccee8d27eab3d8f",
+      "startDate": "2018-10-01",
+      "endDate": "2020-12-14",
+      "createdAt": "2018-09-10",
+      "customerId": "d1c68258-9dcd-4d6e-adf4-894cdb6fc033",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "53f6a02d-8191-4367-a607-8eefd67a4640",
+      "provider": "Allianz",
+      "policyNumber": "622e471b04e83fe0616d20a1",
+      "startDate": "2018-04-06",
+      "endDate": "2019-06-25",
+      "createdAt": "2018-03-26",
+      "customerId": "0c23de4a-206e-4540-9778-1f6f938d9109",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "a4b3e8c1-3e1a-4f39-b037-3ea1ad4f162c",
+      "provider": "Allianz",
+      "policyNumber": "622e471b0f073fb6bb3fda9f",
+      "startDate": "2018-12-02",
+      "endDate": "2021-01-03",
+      "createdAt": "2018-11-24",
+      "customerId": "3ee409d2-70dd-41cc-9a25-4158f49df309",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "f96035af-d2b4-47d4-9717-87177d4799a1",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bce6fd48b8840acc8",
+      "startDate": "2021-01-28",
+      "endDate": "2022-11-04",
+      "createdAt": "2021-01-12",
+      "customerId": "ff11dfa7-aaa1-41ab-948a-9d2ac9f18796",
+      "insuranceType": "HEALTH",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "bf742a66-cd16-44be-9e8f-769535f34e3a",
+      "provider": "Allianz",
+      "policyNumber": "622e471bdcc7f5ff4e1f33e9",
+      "startDate": "2020-11-08",
+      "endDate": "2021-06-16",
+      "createdAt": "2020-10-10",
+      "customerId": "13ca690a-fd99-468c-8e71-205017cd3938",
+      "insuranceType": "HOUSEHOLD",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "46d1577e-21c6-48e1-8c2c-4d299da97f61",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bec6d0f74d21b7ed5",
+      "startDate": "2018-06-05",
+      "endDate": "2019-05-28",
+      "createdAt": "2018-06-02",
+      "customerId": "b0b8fd07-2dc0-4ab7-b8e9-f7a0261c4431",
+      "insuranceType": "HEALTH",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "1afa052f-2d6f-4a57-8f18-671584b1928b",
+      "provider": "Allianz",
+      "policyNumber": "622e471b5deccf0c27e0d20f",
+      "startDate": "2021-11-28",
+      "endDate": "2022-06-21",
+      "createdAt": "2021-11-18",
+      "customerId": "d060239b-84a5-46a4-86db-a3f2eda799b9",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "da2efb28-c9a2-41fe-911c-129b9a41026f",
+      "provider": "Allianz",
+      "policyNumber": "622e471bda4c1fa03e138750",
+      "startDate": "2018-07-21",
+      "endDate": "2021-02-22",
+      "createdAt": "2018-07-16",
+      "customerId": "7138e169-aaab-4680-af5b-66028b187aba",
+      "insuranceType": "HOUSEHOLD",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "d815e889-b4db-4fee-8d5a-233a54a7a9f1",
+      "provider": "Allianz",
+      "policyNumber": "622e471bdbc24d10c2174bc6",
+      "startDate": "2021-02-09",
+      "endDate": "2021-04-15",
+      "createdAt": "2021-01-15",
+      "customerId": "33383693-f690-4b58-99b0-4898d3ed2060",
+      "insuranceType": "HOUSEHOLD",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "fbcf404b-d661-4bbb-bb10-6b71e3fcf40a",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471ba6a6279ab36f84cb",
+      "startDate": "2018-05-21",
+      "endDate": "2020-10-28",
+      "createdAt": "2018-04-21",
+      "customerId": "24e24175-2f4f-4335-b5c7-da556cd9c70a",
+      "insuranceType": "HOUSEHOLD",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "d2c7bc9d-3503-4e2d-b849-fe93860495dd",
+      "provider": "Allianz",
+      "policyNumber": "622e471b7ffb7e3bfdce07fa",
+      "startDate": "2021-03-19",
+      "endDate": "2023-04-08",
+      "createdAt": "2021-02-21",
+      "customerId": "5addbefc-2812-49cf-8489-06f67ec208e4",
+      "insuranceType": "LIABILITY",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "939c1921-cfc4-4aa8-a0ad-186b92d55fe1",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b3bad0216de94177d",
+      "startDate": "2018-11-29",
+      "endDate": "2019-07-04",
+      "createdAt": "2018-11-10",
+      "customerId": "bc87f25c-161c-480b-a6fe-6009e0d851df",
+      "insuranceType": "LIABILITY",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "90043201-4a9b-4736-ac6d-8b09225e557e",
+      "provider": "Allianz",
+      "policyNumber": "622e471bc98e3105a505a5a8",
+      "startDate": "2019-07-19",
+      "endDate": "2022-02-18",
+      "createdAt": "2019-07-17",
+      "customerId": "a9141af5-1751-4438-ac49-4717904fc19c",
+      "insuranceType": "LIABILITY",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "3fd02e58-7b47-4890-8904-12d66b718e1a",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b2d4260bd470390ad",
+      "startDate": "2019-11-27",
+      "endDate": "2021-08-14",
+      "createdAt": "2019-11-18",
+      "customerId": "7f59105b-47b2-4b88-aea4-7281d298800b",
+      "insuranceType": "HOUSEHOLD",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "4ce40d00-1ab8-4795-9861-d941d1c225a0",
+      "provider": "Allianz",
+      "policyNumber": "622e471be17153f004b2fdad",
+      "startDate": "2021-05-02",
+      "endDate": "2023-03-11",
+      "createdAt": "2021-04-14",
+      "customerId": "0c23de4a-206e-4540-9778-1f6f938d9109",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "24a9501f-6060-4a40-8600-31a0cf29e2ee",
+      "provider": "Allianz",
+      "policyNumber": "622e471b2ddbc56a6d42f0ba",
+      "startDate": "2021-09-19",
+      "endDate": "2023-08-11",
+      "createdAt": "2021-09-16",
+      "customerId": "1107cb19-12e3-4778-bc11-a29c6d7aaae4",
+      "insuranceType": "HEALTH",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "f6be2882-81a3-422b-b25c-360e7f083490",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b5813819eb0a942c1",
+      "startDate": "2020-12-25",
+      "endDate": "2022-03-11",
+      "createdAt": "2020-11-26",
+      "customerId": "e80bd767-01d5-48a3-9de5-0ebd0a1b9701",
+      "insuranceType": "HOUSEHOLD",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "e51a6aff-1375-428c-b2a3-d7668f5669b8",
+      "provider": "Allianz",
+      "policyNumber": "622e471be8e1f8554d270b9e",
+      "startDate": "2020-08-26",
+      "endDate": "2022-07-07",
+      "createdAt": "2020-08-02",
+      "customerId": "3ad2cda4-4c62-44a1-b5b2-407e15f9ea8e",
+      "insuranceType": "LIABILITY",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "a1d7e650-6402-47a7-9350-f8b5db9edbdf",
+      "provider": "Allianz",
+      "policyNumber": "622e471b43364ccda9be9c1e",
+      "startDate": "2019-01-07",
+      "endDate": "2021-07-14",
+      "createdAt": "2019-01-02",
+      "customerId": "21c4bb98-a28f-4de9-a27b-52eacc598b33",
+      "insuranceType": "HOUSEHOLD",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "e105f2c8-4259-4561-8a8a-a8c32751b0e3",
+      "provider": "Allianz",
+      "policyNumber": "622e471befb86ad1ab5bc6f6",
+      "startDate": "2021-03-04",
+      "endDate": "2022-08-11",
+      "createdAt": "2021-02-16",
+      "customerId": "64395a22-64b4-44e5-882c-367a8a209945",
+      "insuranceType": "HEALTH",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "4cffca29-98a2-4dfa-b7c1-0b44a857394a",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b48ed8962259f8888",
+      "startDate": "2018-02-18",
+      "endDate": "2019-10-16",
+      "createdAt": "2018-01-23",
+      "customerId": "5b26e80f-8f82-43c9-989f-18290c05dd65",
+      "insuranceType": "HOUSEHOLD",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "08fc9761-aece-4cf4-a2e0-cd76c30b152b",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bced5549255f26473",
+      "startDate": "2019-12-24",
+      "endDate": "2021-05-13",
+      "createdAt": "2019-11-29",
+      "customerId": "dcaf8307-578a-4df5-bcf8-ed76cef898ba",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "9f431669-1a07-4248-b616-d30d4610d44e",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bda7b7af12ff2f08e",
+      "startDate": "2018-02-14",
+      "endDate": "2019-11-03",
+      "createdAt": "2018-01-31",
+      "customerId": "c305bfb2-eb75-4eb2-bfae-c5f86fd73f21",
+      "insuranceType": "HEALTH",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "a2f5fdf1-2992-40c3-ab98-34f694bf0b3f",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b918cae79cfe5947d",
+      "startDate": "2018-05-31",
+      "endDate": "2020-11-17",
+      "createdAt": "2018-05-07",
+      "customerId": "ff11dfa7-aaa1-41ab-948a-9d2ac9f18796",
+      "insuranceType": "LIABILITY",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "9917dcfa-6cd4-4280-a849-2de2233eac26",
+      "provider": "Allianz",
+      "policyNumber": "622e471b2a13522cf5d7d79f",
+      "startDate": "2020-12-15",
+      "endDate": "2023-06-18",
+      "createdAt": "2020-11-23",
+      "customerId": "93a7a772-6401-4c02-b875-829073ea068f",
+      "insuranceType": "LIABILITY",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "0833215a-a880-4720-862b-1e9777172940",
+      "provider": "Allianz",
+      "policyNumber": "622e471b60e014844f253538",
+      "startDate": "2021-03-22",
+      "endDate": "2023-07-02",
+      "createdAt": "2021-02-27",
+      "customerId": "fd30b498-2bad-4ef3-a3dc-486361f00e92",
+      "insuranceType": "LIABILITY",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "4ef7f5ba-7b29-4cd3-bca2-a639cde9c08d",
+      "provider": "Allianz",
+      "policyNumber": "622e471b726a4c67c72f9c17",
+      "startDate": "2021-05-07",
+      "endDate": "2022-09-07",
+      "createdAt": "2021-04-18",
+      "customerId": "7138e169-aaab-4680-af5b-66028b187aba",
+      "insuranceType": "HOUSEHOLD",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "0143023c-a0cf-46f6-b228-e55dea51d33a",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471ba123ffb1a2b405fd",
+      "startDate": "2021-12-06",
+      "endDate": "2024-04-24",
+      "createdAt": "2021-12-03",
+      "customerId": "66ab1881-2036-46fc-bbb6-4de81e3147ee",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "d76a07fe-a9f9-4eb2-9e0a-438af688b4b4",
+      "provider": "Allianz",
+      "policyNumber": "622e471b3319736a2fc8f146",
+      "startDate": "2018-12-17",
+      "endDate": "2019-06-02",
+      "createdAt": "2018-11-23",
+      "customerId": "22c6da57-7d89-46d4-abe8-b832c90994f1",
+      "insuranceType": "HOUSEHOLD",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "d3ce887b-3080-4184-a330-5732edc2de33",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b9e7c3f8cc7cc8a6a",
+      "startDate": "2018-11-29",
+      "endDate": "2021-07-28",
+      "createdAt": "2018-11-06",
+      "customerId": "118f5e73-b4a6-4a03-9e4f-dc5b5e3ca7f0",
+      "insuranceType": "HOUSEHOLD",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "4244acdc-1e4a-4640-bd3d-9421a52b2a84",
+      "provider": "Allianz",
+      "policyNumber": "622e471b023c3800ac2f8348",
+      "startDate": "2021-04-16",
+      "endDate": "2022-05-03",
+      "createdAt": "2021-04-11",
+      "customerId": "6d6dd456-b101-4a33-8e3a-950561ead816",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "aa9c26c3-b844-4658-b3eb-ae9bd529f505",
+      "provider": "Allianz",
+      "policyNumber": "622e471b642a0a16292d5158",
+      "startDate": "2020-01-02",
+      "endDate": "2020-02-14",
+      "createdAt": "2019-12-12",
+      "customerId": "414246ef-fbad-489a-99f6-3e76315ad6af",
+      "insuranceType": "HOUSEHOLD",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "b684ece7-f253-4ddb-93d6-86162cf124e7",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b21aafe7326552d7f",
+      "startDate": "2019-10-20",
+      "endDate": "2020-12-16",
+      "createdAt": "2019-10-06",
+      "customerId": "2f2816eb-80cf-477b-ad6a-6a4ce63fd9ca",
+      "insuranceType": "LIABILITY",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "f7673791-1a9d-4c7e-ad7f-b98962650107",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471bacf0e7425c183519",
+      "startDate": "2019-02-19",
+      "endDate": "2020-03-27",
+      "createdAt": "2019-02-07",
+      "customerId": "44273888-3bf4-471b-8274-88bcefa9f130",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "ac0223e2-dd31-4181-8da8-413daa98f25c",
+      "provider": "Allianz",
+      "policyNumber": "622e471b5ee4c4209f492391",
+      "startDate": "2019-02-26",
+      "endDate": "2021-10-31",
+      "createdAt": "2019-01-28",
+      "customerId": "c2827648-152c-439c-a0b4-849fd55bb44f",
+      "insuranceType": "HEALTH",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "3f88d6b9-4f75-4b20-9c92-929f86bcd2b8",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b645973b903db40f4",
+      "startDate": "2019-06-24",
+      "endDate": "2022-01-25",
+      "createdAt": "2019-06-10",
+      "customerId": "4aeb1c52-6d48-4e79-a06c-bc37aa246a8e",
+      "insuranceType": "HOUSEHOLD",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "fc121671-fef9-4239-93ac-358db69aa2ff",
+      "provider": "Allianz",
+      "policyNumber": "622e471b9de4591ee78779df",
+      "startDate": "2021-08-05",
+      "endDate": "2022-06-02",
+      "createdAt": "2021-07-21",
+      "customerId": "d8216b5c-16e6-45e3-9b35-276c356f5431",
+      "insuranceType": "HEALTH",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "d040ef4c-0e7e-4653-bcbf-5c43cbbce1e7",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b6d49ad6548542257",
+      "startDate": "2021-10-16",
+      "endDate": "2024-06-14",
+      "createdAt": "2021-09-23",
+      "customerId": "64395a22-64b4-44e5-882c-367a8a209945",
+      "insuranceType": "HOUSEHOLD",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "409fa71d-453e-4ff3-90a8-8eb963781fee",
+      "provider": "Allianz",
+      "policyNumber": "622e471b187f66defd3934a5",
+      "startDate": "2019-06-07",
+      "endDate": "2022-02-20",
+      "createdAt": "2019-05-19",
+      "customerId": "1ef6bfbb-df89-4747-98ef-a3ba9c8cffd8",
+      "insuranceType": "HOUSEHOLD",
+      "status": "PENDING"
+    },
+    {
+      "policyId": "f69ef9f1-f3bd-4cf5-b9bb-5f97ff382c15",
+      "provider": "Allianz",
+      "policyNumber": "622e471b1d072642b74ad67f",
+      "startDate": "2018-12-04",
+      "endDate": "2020-12-26",
+      "createdAt": "2018-11-14",
+      "customerId": "bc87f25c-161c-480b-a6fe-6009e0d851df",
+      "insuranceType": "HOUSEHOLD",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "2bb7ad67-2f4c-4d4d-b13b-289e4ba13b6c",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b1fcd0db364ccdacd",
+      "startDate": "2020-08-24",
+      "endDate": "2022-07-27",
+      "createdAt": "2020-07-25",
+      "customerId": "95cf64ac-3fdf-486c-b26e-403fa9eee8ac",
+      "insuranceType": "HOUSEHOLD",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "29eb0086-30ff-45ad-915c-4b560ba4f3a6",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b28537acb691ca99d",
+      "startDate": "2019-09-30",
+      "endDate": "2020-09-02",
+      "createdAt": "2019-09-24",
+      "customerId": "bed3ec24-a15e-4f12-aa25-a29021ab72e8",
+      "insuranceType": "LIABILITY",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "e72cd614-d399-4700-9553-df71a0ebfbe6",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b709595ef87a3ff2f",
+      "startDate": "2020-04-16",
+      "endDate": "2021-04-04",
+      "createdAt": "2020-03-19",
+      "customerId": "f97a113f-4498-40ac-8598-84d28bd7ddfe",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "f06f0f0d-73ed-4085-8d60-1925a832d5b8",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471b380638112ff6db83",
+      "startDate": "2020-03-11",
+      "endDate": "2022-12-25",
+      "createdAt": "2020-02-16",
+      "customerId": "ba6eaf44-f711-4e22-a700-51edf9d89678",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "e4e8ffe3-7995-4279-a373-84bead824544",
+      "provider": "Liability Insurances LLC",
+      "policyNumber": "622e471baa8b64b94c449bbd",
+      "startDate": "2020-03-10",
+      "endDate": "2021-11-09",
+      "createdAt": "2020-03-02",
+      "customerId": "7f59105b-47b2-4b88-aea4-7281d298800b",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "16fd2c69-ed19-45e6-972c-2458b7cc5b04",
+      "provider": "Allianz",
+      "policyNumber": "622e471b79100836b747ea5e",
+      "startDate": "2020-12-20",
+      "endDate": "2021-09-08",
+      "createdAt": "2020-12-18",
+      "customerId": "ad368230-5cf0-44a4-87f4-8a94a3b69df8",
+      "insuranceType": "LIABILITY",
+      "status": "CANCELLED"
+    },
+    {
+      "policyId": "bf0fce78-c70d-4b0c-80f6-2a2a69c44743",
+      "provider": "Allianz",
+      "policyNumber": "622e471bf1cf0746e6ad4104",
+      "startDate": "2019-08-12",
+      "endDate": "2022-03-02",
+      "createdAt": "2019-07-14",
+      "customerId": "a1f70e53-2259-4867-8d38-a81898c0bc92",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    },
+    {
+      "policyId": "4e6ed5f4-8b0a-45ce-a5d8-1b948fc3c683",
+      "provider": "Allianz",
+      "policyNumber": "622e471b650623612cc46bbf",
+      "startDate": "2018-08-06",
+      "endDate": "2020-12-16",
+      "createdAt": "2018-07-28",
+      "customerId": "4aeb1c52-6d48-4e79-a06c-bc37aa246a8e",
+      "insuranceType": "HEALTH",
+      "status": "DROPPED_OUT"
+    },
+    {
+      "policyId": "5c13a990-f7ba-42dc-be9b-984637ea0fd7",
+      "provider": "Allianz",
+      "policyNumber": "622e471bc8671885ae9f028e",
+      "startDate": "2020-11-23",
+      "endDate": "2022-08-26",
+      "createdAt": "2020-10-29",
+      "customerId": "526ac3b7-779f-4f4c-872d-8c4ab28000a4",
+      "insuranceType": "LIABILITY",
+      "status": "ACTIVE"
+    }
+  ]
+}
