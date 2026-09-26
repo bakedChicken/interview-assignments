@@ -27,13 +27,13 @@ docker build --target frontend --tag feather-admin-panel-frontend .
 
 - I've implemented a couple of tests for backend and frontend. There could have been a lot more tests added but I'm limited in time
 
-- I haven't used a real database here. Again, I'm limited in time, but I have another test assignment done where I actually did use PostgreSQL with Docker: https://github.com/bakedchicken/n26-test-assignment
+- I haven't used a real database here. Again, I'm limited in time, but I have another test assignment done where I actually did use PostgreSQL with Docker: [n26-test-assignment](../n26-test-assignment)
 
 - Quick start:
 
 ```bash
-git clone git@github.com:bakedChicken/fullstack-engineer-challenge.git
-cd fullstack-engineer-challenge
+git clone git@github.com:bakedChicken/kontur-game-stats-backend.git
+cd kontur-game-stats-backend/fullstack-engineer-challenge
 yarn
 ```
 In frontend folder:

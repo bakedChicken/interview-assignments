@@ -11,14 +11,15 @@
   Core, LiteDB), plus =DataGenerator=, a load-generation console app used
   against either server.
 - =openapi.yaml= — the authoritative API contract both servers implement.
-- =flake.nix= — Nix/devenv shells and buildable packages for all of the above.
+- =../flake.nix= — the monorepo flake: Nix/devenv shells and buildable
+  packages for all of the above.
 
 * Building and running
 
-All commands below run from the repository root, using Nix directly — no
-need to enter a dev shell first (though =nix develop= shells are also
-defined for interactive work; see below). Run =nix fmt= after changing any
-=.nix= file.
+All commands below run from this directory (=kontur-game-stats/=), using
+Nix directly — no need to enter a dev shell first (though =nix develop=
+shells are also defined for interactive work; see below). Run =nix fmt=
+after changing any =.nix= file.
 
 ** The Go server (=gamestats=)
 

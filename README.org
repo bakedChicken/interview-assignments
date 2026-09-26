@@ -1,0 +1,60 @@
+#+TITLE: Interview assignments & homeworks
+
+Take-home assignments, interview challenges and course homeworks collected
+in one place. Every project that had a git repository was imported with its
+full history (=git log -- <folder>= shows it); projects that never had one
+were committed as a single snapshot dated by their last change.
+
+* Projects
+
+| Folder                                     | Year      | Stack                          | Shell             |
+|--------------------------------------------+-----------+--------------------------------+-------------------|
+| =kontur-game-stats/=                       | 2018/2026 | C#, .NET, Go, SQLite           | =gamestats=, =modernized= |
+| =yandex-school/android-app/=               | 2018      | Kotlin, Android                | =yandex-school=   |
+| =yandex-school/mock-server/=               | 2018      | TypeScript, Koa                | =yandex-school=   |
+| =tinkoff-fintech-converter-android-app/=   | 2018–2019 | Kotlin, Android                | =android=         |
+| =feed-ios-application/=                    | 2018      | Swift, UIKit, CocoaPods        | =ios=             |
+| =tinkoff-homeworks/=                       | 2019      | Kotlin, Android                | =android=         |
+| =tochka-news-aggregator/=                  | 2020      | Go, Gin, Fx                    | =news-aggregator= |
+| =aggregion-promise-queue-test-assignment/= | 2020      | TypeScript, React, Parcel      | =node=            |
+| =yandex-backend-weekend-contest/=          | 2021      | Python                         | =contest=         |
+| =n26-test-assignment/=                     | 2021      | TypeScript, NestJS, React, PostgreSQL | =n26=      |
+| =fullstack-engineer-challenge/=            | 2021–2022 | TypeScript, GraphQL, React     | =node=            |
+| =northvolt-interview/=                     | 2022      | JavaScript                     | =node=            |
+| =runtastic-challenge/=                     | 2022      | JavaScript, React              | =node=            |
+| =mayd-challenge/=                          | 2022      | TypeScript                     | =node=            |
+
+=tinkoff-homeworks/= was first assembled as its own monorepo (see its merge
+commits) and shares a single Gradle root between =homework-1..3=.
+=yandex-school/= likewise unites the Android app with the mock server it
+talks to.
+
+* Nix
+
+Everything is described by the top-level =flake.nix= (flake-parts +
+devenv). Each project folder has an =.envrc= that loads its shell via
+direnv (=direnv allow= once), or enter one explicitly:
+
+#+BEGIN_SRC sh
+  nix develop .#android --no-pure-eval
+  cd tinkoff-homeworks && ./gradlew assembleDebug
+#+END_SRC
+
+Shells with services start them with =devenv up=: PostgreSQL for =n26=, the
+mock server for =yandex-school=, the OpenAPI preview for =default=. Run
+=nix fmt= after changing any =.nix= file.
+
+** Caveats
+
+- The Android projects use their original 2018–2019 toolchains (Gradle
+  4.4–4.10, AGP 3.1–3.3, JDK 8). SDK build-tools 28 are x86_64-only on
+  macOS and need Rosetta. The Crashlytics/Fabric Maven repository used by
+  =yandex-school/android-app= and the converter no longer exists.
+- Xcode is not packaged by Nix; the =ios= shell only provides CocoaPods,
+  SwiftLint and SwiftFormat. The app targets Swift 4.2.
+- The JavaScript projects predate Node 18 and all share Node 22 from the
+  flake. =n26-test-assignment= still documents Docker Compose as its way to
+  run; its backend defaults to the =database= host, so pass it a config
+  pointing at =127.0.0.1= to use the devenv PostgreSQL instead.
+- =yandex-school/mock-server= reads =HOST=, =PORT=, =STORAGE_PATH= and
+  =MAX_IMAGE_COUNT= from =mock-server/.env=.
