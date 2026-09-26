@@ -32,8 +32,8 @@ docker build --target frontend --tag feather-admin-panel-frontend .
 - Quick start:
 
 ```bash
-git clone git@github.com:bakedChicken/kontur-game-stats-backend.git
-cd kontur-game-stats-backend/fullstack-engineer-challenge
+git clone git@github.com:bakedChicken/interview-assignments.git
+cd interview-assignments/fullstack-engineer-challenge
 yarn
 ```
 In frontend folder:
