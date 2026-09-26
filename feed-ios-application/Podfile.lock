@@ -1,0 +1,24 @@
+PODS:
+  - SwiftFormat/CLI (0.35.7)
+  - SwiftLint (0.27.0)
+  - VK-ios-sdk (1.4.6)
+
+DEPENDENCIES:
+  - SwiftFormat/CLI
+  - SwiftLint
+  - VK-ios-sdk
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftFormat
+    - SwiftLint
+    - VK-ios-sdk
+
+SPEC CHECKSUMS:
+  SwiftFormat: d97eadc55d4e02d04cf1f03b8a2d6ff5b6cdb2fd
+  SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
+  VK-ios-sdk: 7fd48bc5aaa6b96c3197c1987eb6593f2ea67331
+
+PODFILE CHECKSUM: 4f1a63bbeb4b14c117823532680a820e57547942
+
+COCOAPODS: 1.5.3
