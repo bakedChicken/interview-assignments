@@ -1,0 +1,26 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ImageTable" />
+
+    <style name="ImageTable.Container">
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="ImageTable.LoadingContainer" parent="ImageTable.Container" />
+
+    <style name="ImageTable.EmptyTableContainer" parent="ImageTable.Container">
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+    <style name="ImageTable.EmptyTableText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+</resources>

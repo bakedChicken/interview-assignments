@@ -1,0 +1,92 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'io.fabric'
+
+android {
+    def environmentProperties = getProperties(rootProject.file('gradle-env.properties'))
+
+    signingConfigs {
+        releaseConfig {
+            keyAlias environmentProperties['RELEASE_CONFIG_KEY_ALIAS']
+            keyPassword environmentProperties['RELEASE_CONFIG_KEY_PASSWORD']
+            storeFile rootProject.file(environmentProperties['RELEASE_CONFIG_FILEPATH'])
+            storePassword environmentProperties['RELEASE_CONFIG_STORE_PASSWORD']
+        }
+    }
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "io.yoba.yandex.school"
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.releaseConfig
+            resValue "string", "app_name", "Йобозреватель"
+            buildConfigField "String", "SERVER_URL", "\"${environmentProperties['RELEASE_SERVER_URL']}\""
+        }
+        debug {
+            applicationIdSuffix ".debug"
+            versionNameSuffix "-debug"
+            resValue "string", "app_name", "Йобозреватель Debug"
+            buildConfigField "String", "SERVER_URL", "\"${environmentProperties['DEBUG_SERVER_URL']}\""
+        }
+    }
+    dataBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
+    kapt 'android.arch.lifecycle:compiler:1.1.1'
+    implementation 'android.arch.persistence.room:runtime:1.0.0'
+    implementation 'android.arch.persistence.room:rxjava2:1.0.0'
+    kapt 'android.arch.persistence.room:compiler:1.0.0'
+    implementation 'com.google.dagger:dagger:2.15'
+    implementation 'com.google.dagger:dagger-android:2.15'
+    implementation 'com.google.dagger:dagger-android-support:2.15'
+    kapt 'com.google.dagger:dagger-compiler:2.15'
+    kapt 'com.google.dagger:dagger-android-processor:2.15'
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-moshi:2.4.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.10.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.12'
+    implementation 'io.reactivex.rxjava2:rxkotlin:2.2.0'
+    implementation 'com.jakewharton.rxbinding2:rxbinding:2.0.0'
+    implementation 'me.tatarka.bindingcollectionadapter2:bindingcollectionadapter:2.2.0'
+    implementation 'me.tatarka.bindingcollectionadapter2:bindingcollectionadapter-recyclerview:2.2.0'
+    implementation 'org.jetbrains.anko:anko:0.10.4'
+    implementation 'me.zhanghai.android.materialprogressbar:library:1.4.2'
+    implementation 'com.github.stfalcon:frescoimageviewer:0.5.0'
+    implementation 'com.facebook.fresco:fresco:1.9.0'
+    implementation('com.crashlytics.sdk.android:crashlytics:2.9.1@aar') {
+        transitive = true
+    }
+}
+
+def getProperties(File propertiesFile) {
+    if (!propertiesFile.exists() || !propertiesFile.canRead()) {
+        throw GradleException("Cannot find $name file at project root. Run `cp gradle-env-example.properties gradle-env.properties` to resolve this issue")
+    }
+
+    def properties = new Properties()
+    properties.load(new FileReader(propertiesFile))
+    return properties
+}

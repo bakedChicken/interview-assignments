@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="image"
+            type="io.yoba.yandex.school.data.entities.Image" />
+
+        <variable
+            name="onImageClickListener"
+            type="io.yoba.yandex.school.activities.OnImageClickListener" />
+    </data>
+
+    <!--9GAG использует обычный серый фон, если загрузка изображения не удалась. Чем я хуже?-->
+    <io.yoba.yandex.school.activities.SquareImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="@{ v -> onImageClickListener.onClick(context, image) }"
+        app:imageUrl="@{image.url}"
+        fresco:failureImage="@drawable/drawable_failure" />
+</layout>

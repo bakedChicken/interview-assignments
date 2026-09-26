@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <import type="android.widget.LinearLayout" />
+
+        <import type="me.tatarka.bindingcollectionadapter2.LayoutManagers" />
+
+        <import type="io.yoba.yandex.school.activities.CustomItemDecorators" />
+
+        <variable
+            name="viewModel"
+            type="io.yoba.yandex.school.activities.table.ImageTableActivityViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            style="@style/ImageTable.LoadingContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="@{viewModel.isCacheLoading ? View.VISIBLE : View.GONE}">
+
+            <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="true" />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="@{viewModel.isCacheLoading ? View.GONE : View.VISIBLE}">
+
+            <FrameLayout
+                style="@style/ImageTable.EmptyTableContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="@{viewModel.isImageTableVisible ? View.GONE : View.VISIBLE}">
+
+                <TextView
+                    style="@style/ImageTable.EmptyTableText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/image_table_activity_table_is_empty_text" />
+            </FrameLayout>
+
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:id="@+id/imageTableActivitySwipeRefreshLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="@{viewModel.isImageTableVisible ? View.VISIBLE : View.GONE}"
+                    app:itemBinding="@{viewModel.itemBinding}"
+                    app:itemDecorator="@{CustomItemDecorators.GRID_SPACE.name}"
+                    app:items="@{viewModel.images}"
+                    app:layoutManager="@{LayoutManagers.grid(2)}" />
+            </android.support.v4.widget.SwipeRefreshLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</layout>
