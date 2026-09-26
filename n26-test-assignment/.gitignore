@@ -1,7 +1,0 @@
-.DS_Store
-.npm-cache
-.data
-.idea
-.vscode
-build
-node_modules

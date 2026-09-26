@@ -1,12 +1,56 @@
+# OS & editors
+.DS_Store
+*~
+\#*#
+.#*
+*.iml
+**/.idea/*
+!**/.idea/codeStyles/
+xcuserdata/
+
+# Nix & direnv
 .direnv
 .devenv
 result*
-*~
-/gamestats/gamestats
-log
-db
-bin
-obj
+
+# Secrets & local configuration
+.env
+local.properties
+gradle-env.properties
+
+# Node
+node_modules/
+.npm-cache/
+coverage/
+yarn-error.log
+build/
+dist/
+
+# Android & Gradle
+.gradle/
+captures/
+.externalNativeBuild
+
+# iOS
+Pods/
+DerivedData/
+
+# kontur-game-stats
+/kontur-game-stats/gamestats/gamestats
+/kontur-game-stats/**/log
+/kontur-game-stats/**/db
+/kontur-game-stats/**/bin
+/kontur-game-stats/**/obj
+/kontur-game-stats/Kontur.GameStats/packages
 *.db
 *.db-shm
 *.db-wal
+
+# n26-test-assignment
+/n26-test-assignment/.data/
+
+# yandex-school
+/yandex-school/android-app/keys
+/yandex-school/android-app/app/libs/
+/yandex-school/android-app/app/release/
+/yandex-school/mock-server/storage/
